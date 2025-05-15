@@ -1,0 +1,3046 @@
+A001	Life and Living Things
+A002	Life and Living Things
+A003	Life and Living Things
+A004	Life and Living Things
+A005	Life and Living Things
+A006	Life and Living Things
+A007	Life and Living Things
+A008	Life and Living Things
+A009	Life and Living Things
+A010	Life and Living Things
+A011	Life and Living Things
+A012	Life and Living Things
+A013	Life and Living Things
+A014	Life and Living Things
+A015	Life and Living Things
+A016	Life and Living Things
+A017	Life and Living Things
+A018	Life and Living Things
+A019	Life and Living Things
+A020	Life and Living Things
+A021	Life and Living Things
+A022	Life and Living Things
+A023	Life and Living Things
+A024	Life and Living Things
+A025	Life and Living Things
+A026	Life and Living Things
+A027	Life and Living Things
+A028	Life and Living Things
+A029	Life and Living Things
+A030	Living Creatures Generally
+A031	Living Creatures Generally
+A032	Living Creatures Generally
+A033	Living Creatures Generally
+A034	Living Creatures Generally
+A035	Living Creatures Generally
+A036	Living Creatures Generally
+A037	Living Creatures Generally
+A038	Living Creatures Generally
+A039	Living Creatures Generally
+A040	Living Creatures Generally
+A041	Living Creatures Generally
+A042	Living Creatures Generally
+A043	Living Creatures Generally
+A044	Living Creatures Generally
+A045	Living Creatures Generally
+A046	Living Creatures Generally
+A047	Living Creatures Generally
+A048	Living Creatures Generally
+A049	Living Creatures Generally
+A050	Animals/ Mammals
+A051	Animals/ Mammals
+A052	Animals/ Mammals
+A053	Animals/ Mammals
+A054	Animals/ Mammals
+A055	Animals/ Mammals
+A056	Animals/ Mammals
+A057	Animals/ Mammals
+A058	Animals/ Mammals
+A059	Animals/ Mammals
+A060	Animals/ Mammals
+A061	Animals/ Mammals
+A062	Animals/ Mammals
+A063	Animals/ Mammals
+A064	Animals/ Mammals
+A065	Animals/ Mammals
+A066	Animals/ Mammals
+A067	Animals/ Mammals
+A068	Animals/ Mammals
+A069	Animals/ Mammals
+A070	Birds
+A071	Birds
+A072	Birds
+A073	Birds
+A074	Birds
+A075	Birds
+A076	Birds
+A077	Birds
+A078	Birds
+A079	Birds
+A080	Birds
+A081	Birds
+A082	Birds
+A083	Birds
+A084	Birds
+A085	Birds
+A086	Birds
+A087	Birds
+A088	Birds
+A089	Birds
+A090	Reptiles and Amphibians
+A091	Reptiles and Amphibians
+A092	Reptiles and Amphibians
+A093	Reptiles and Amphibians
+A094	Reptiles and Amphibians
+A095	Reptiles and Amphibians
+A096	Reptiles and Amphibians
+A097	Reptiles and Amphibians
+A098	Reptiles and Amphibians
+A099	Reptiles and Amphibians
+A100	Fish and other Water Creatures
+A101	Fish and other Water Creatures
+A102	Fish and other Water Creatures
+A103	Fish and other Water Creatures
+A104	Fish and other Water Creatures
+A105	Fish and other Water Creatures
+A106	Fish and other Water Creatures
+A107	Fish and other Water Creatures
+A108	Fish and other Water Creatures
+A109	Fish and other Water Creatures
+A110	Insects and Similar Creatures
+A111	Insects and Similar Creatures
+A112	Insects and Similar Creatures
+A113	Insects and Similar Creatures
+A114	Insects and Similar Creatures
+A115	Insects and Similar Creatures
+A116	Insects and Similar Creatures
+A117	Insects and Similar Creatures
+A118	Insects and Similar Creatures
+A119	Insects and Similar Creatures
+A120	Parts of Animals
+A121	Parts of Animals
+A122	Parts of Animals
+A123	Parts of Animals
+A124	Parts of Animals
+A125	Parts of Animals
+A126	Parts of Animals
+A127	Parts of Animals
+A128	Parts of Animals
+A129	Parts of Animals
+A130	Kinds and Parts of Plants
+A131	Kinds and Parts of Plants
+A132	Kinds and Parts of Plants
+A133	Kinds and Parts of Plants
+A134	Kinds and Parts of Plants
+A135	Kinds and Parts of Plants
+A136	Kinds and Parts of Plants
+A137	Kinds and Parts of Plants
+A138	Kinds and Parts of Plants
+A139	Kinds and Parts of Plants
+A140	Kinds and Parts of Plants
+A141	Kinds and Parts of Plants
+A142	Kinds and Parts of Plants
+A143	Kinds and Parts of Plants
+A144	Kinds and Parts of Plants
+A145	Kinds and Parts of Plants
+A146	Kinds and Parts of Plants
+A147	Kinds and Parts of Plants
+A148	Kinds and Parts of Plants
+A149	Kinds and Parts of Plants
+A150	Plants Generally
+B001	Body Generally
+B002	Body Generally
+B003	Body Generally
+B004	Body Generally
+B005	Body Generally
+B006	Body Generally
+B007	Body Generally
+B008	Body Generally
+B009	Body Generally
+B010	Body Overall
+B011	Body Overall
+B012	Body Overall
+B013	Body Overall
+B014	Body Overall
+B015	Body Overall
+B016	Body Overall
+B017	Body Overall
+B018	Body Overall
+B019	Body Overall
+B020	The Head and the Face
+B021	The Head and the Face
+B022	The Head and the Face
+B023	The Head and the Face
+B024	The Head and the Face
+B025	The Head and the Face
+B026	The Head and the Face
+B027	The Head and the Face
+B028	The Head and the Face
+B029	The Head and the Face
+B030	The Trunk, Arms, and
+B031	The Trunk, Arms, and
+B032	The Trunk, Arms, and
+B033	The Trunk, Arms, and
+B034	The Trunk, Arms, and
+B035	The Trunk, Arms, and
+B036	The Trunk, Arms, and
+B037	The Trunk, Arms, and
+B038	The Trunk, Arms, and
+B039	The Trunk, Arms, and
+B040	The Trunk, Arms, and
+B041	The Trunk, Arms, and
+B042	The Trunk, Arms, and
+B043	The Trunk, Arms, and
+B044	The Trunk, Arms, and
+B045	The Trunk, Arms, and
+B046	The Trunk, Arms, and
+B047	The Trunk, Arms, and
+B048	The Trunk, Arms, and
+B049	The Trunk, Arms, and
+B050	The Skin, the Complexion, and the Hair
+B051	The Skin, the Complexion, and the Hair
+B052	The Skin, the Complexion, and the Hair
+B053	The Skin, the Complexion, and the Hair
+B054	The Skin, the Complexion, and the Hair
+B055	The Skin, the Complexion, and the Hair
+B056	The Skin, the Complexion, and the Hair
+B057	The Skin, the Complexion, and the Hair
+B058	The Skin, the Complexion, and the Hair
+B059	The Skin, the Complexion, and the Hair
+B060	Fluids and Waste Products of the Body
+B061	Fluids and Waste Products of the Body
+B062	Fluids and Waste Products of the Body
+B063	Fluids and Waste Products of the Body
+B064	Fluids and Waste Products of the Body
+B065	Fluids and Waste Products of the Body
+B066	Fluids and Waste Products of the Body
+B067	Fluids and Waste Products of the Body
+B068	Fluids and Waste Products of the Body
+B069	Fluids and Waste Products of the Body
+B070	Fluids and Waste Products of the Body
+B071	Fluids and Waste Products of the Body
+B072	Fluids and Waste Products of the Body
+B073	Fluids and Waste Products of the Body
+B074	Fluids and Waste Products of the Body
+B075	Fluids and Waste Products of the Body
+B076	Fluids and Waste Products of the Body
+B077	Fluids and Waste Products of the Body
+B078	Fluids and Waste Products of the Body
+B079	Fluids and Waste Products of the Body
+B080	Bodily States and Associated Activities
+B081	Bodily States and Associated Activities
+B082	Bodily States and Associated Activities
+B083	Bodily States and Associated Activities
+B084	Bodily States and Associated Activities
+B085	Bodily States and Associated Activities
+B086	Bodily States and Associated Activities
+B087	Bodily States and Associated Activities
+B088	Bodily States and Associated Activities
+B089	Bodily States and Associated Activities
+B090	Bodily States and Associated Activities
+B091	Bodily States and Associated Activities
+B092	Bodily States and Associated Activities
+B093	Bodily States and Associated Activities
+B094	Bodily States and Associated Activities
+B095	Bodily States and Associated Activities
+B096	Bodily States and Associated Activities
+B097	Bodily States and Associated Activities
+B098	Bodily States and Associated Activities
+B099	Bodily States and Associated Activities
+B100	Bodily States and Associated Activities
+B101	Bodily States and Associated Activities
+B102	Bodily States and Associated Activities
+B103	Bodily States and Associated Activities
+B104	Bodily States and Associated Activities
+B105	Bodily States and Associated Activities
+B106	Bodily States and Associated Activities
+B107	Bodily States and Associated Activities
+B108	Bodily States and Associated Activities
+B109	Bodily States and Associated Activities
+B110	Bodily Conditions Relating to Health, Sickness, and Disability
+B111	Bodily Conditions Relating to Health, Sickness, and Disability
+B112	Bodily Conditions Relating to Health, Sickness, and Disability
+B113	Bodily Conditions Relating to Health, Sickness, and Disability
+B114	Bodily Conditions Relating to Health, Sickness, and Disability
+B115	Bodily Conditions Relating to Health, Sickness, and Disability
+B116	Bodily Conditions Relating to Health, Sickness, and Disability
+B117	Bodily Conditions Relating to Health, Sickness, and Disability
+B118	Bodily Conditions Relating to Health, Sickness, and Disability
+B119	Bodily Conditions Relating to Health, Sickness, and Disability
+B120	Bodily Conditions Relating to Health, Sickness, and Disability
+B121	Bodily Conditions Relating to Health, Sickness, and Disability
+B122	Bodily Conditions Relating to Health, Sickness, and Disability
+B123	Bodily Conditions Relating to Health, Sickness, and Disability
+B124	Bodily Conditions Relating to Health, Sickness, and Disability
+B125	Bodily Conditions Relating to Health, Sickness, and Disability
+B126	Bodily Conditions Relating to Health, Sickness, and Disability
+B127	Bodily Conditions Relating to Health, Sickness, and Disability
+B128	Bodily Conditions Relating to Health, Sickness, and Disability
+B129	Bodily Conditions Relating to Health, Sickness, and Disability
+B130	Bodily Conditions Relating to Health, Sickness, and Disability
+B131	Bodily Conditions Relating to Health, Sickness, and Disability
+B132	Bodily Conditions Relating to Health, Sickness, and Disability
+B133	Bodily Conditions Relating to Health, Sickness, and Disability
+B134	Bodily Conditions Relating to Health, Sickness, and Disability
+B135	Bodily Conditions Relating to Health, Sickness, and Disability
+B136	Bodily Conditions Relating to Health, Sickness, and Disability
+B137	Bodily Conditions Relating to Health, Sickness, and Disability
+B138	Bodily Conditions Relating to Health, Sickness, and Disability
+B139	Bodily Conditions Relating to Health, Sickness, and Disability
+B140	Diseases and Ailments
+B141	Diseases and Ailments
+B142	Diseases and Ailments
+B143	Diseases and Ailments
+B144	Diseases and Ailments
+B145	Diseases and Ailments
+B146	Diseases and Ailments
+B147	Diseases and Ailments
+B148	Diseases and Ailments
+B149	Diseases and Ailments
+B150	Diseases and Ailments
+B151	Diseases and Ailments
+B152	Diseases and Ailments
+B153	Diseases and Ailments
+B154	Diseases and Ailments
+B155	Diseases and Ailments
+B156	Diseases and Ailments
+B157	Diseases and Ailments
+B158	Diseases and Ailments
+B159	Diseases and Ailments
+B160	Medicine and General Medical Care
+C001	People
+C002	People
+C003	People
+C004	People
+C005	People
+C006	People
+C007	People
+C008	People
+C009	People
+C010	People
+C011	People
+C012	People
+C013	People
+C014	People
+C015	People
+C016	People
+C017	People
+C018	People
+C019	People
+C020	Courting, Sex, and Marriage
+C021	Courting, Sex, and Marriage
+C022	Courting, Sex, and Marriage
+C023	Courting, Sex, and Marriage
+C024	Courting, Sex, and Marriage
+C025	Courting, Sex, and Marriage
+C026	Courting, Sex, and Marriage
+C027	Courting, Sex, and Marriage
+C028	Courting, Sex, and Marriage
+C029	Courting, Sex, and Marriage
+C030	Courting, Sex, and Marriage
+C031	Courting, Sex, and Marriage
+C032	Courting, Sex, and Marriage
+C033	Courting, Sex, and Marriage
+C034	Courting, Sex, and Marriage
+C035	Courting, Sex, and Marriage
+C036	Courting, Sex, and Marriage
+C037	Courting, Sex, and Marriage
+C038	Courting, Sex, and Marriage
+C039	Courting, Sex, and Marriage
+C040	Friendship and Enmity
+C041	Friendship and Enmity
+C042	Friendship and Enmity
+C043	Friendship and Enmity
+C044	Friendship and Enmity
+C045	Friendship and Enmity
+C046	Friendship and Enmity
+C047	Friendship and Enmity
+C048	Friendship and Enmity
+C049	Friendship and Enmity
+C050	Death and Burial
+C051	Death and Burial
+C052	Death and Burial
+C053	Death and Burial
+C054	Death and Burial
+C055	Death and Burial
+C056	Death and Burial
+C057	Death and Burial
+C058	Death and Burial
+C059	Death and Burial
+C060	Death and Burial
+C061	Death and Burial
+C062	Death and Burial
+C063	Death and Burial
+C064	Death and Burial
+C065	Death and Burial
+C066	Death and Burial
+C067	Death and Burial
+C068	Death and Burial
+C069	Death and Burial
+C070	Social Organization in Group and Places
+C071	Social Organization in Group and Places
+C072	Social Organization in Group and Places
+C073	Social Organization in Group and Places
+C074	Social Organization in Group and Places
+C075	Social Organization in Group and Places
+C076	Social Organization in Group and Places
+C077	Social Organization in Group and Places
+C078	Social Organization in Group and Places
+C079	Social Organization in Group and Places
+C080	Social Organization in Group and Places
+C081	Social Organization in Group and Places
+C082	Social Organization in Group and Places
+C083	Social Organization in Group and Places
+C084	Social Organization in Group and Places
+C085	Social Organization in Group and Places
+C086	Social Organization in Group and Places
+C087	Social Organization in Group and Places
+C088	Social Organization in Group and Places
+C089	Social Organization in Group and Places
+C090	Government
+C091	Government
+C092	Government
+C093	Government
+C094	Government
+C095	Government
+C096	Government
+C097	Government
+C098	Government
+C099	Government
+C100	Government
+C101	Government
+C102	Government
+C103	Government
+C104	Government
+C105	Government
+C106	Government
+C107	Government
+C108	Government
+C109	Government
+C110	Politics and Election
+C111	Politics and Election
+C112	Politics and Election
+C113	Politics and Election
+C114	Politics and Election
+C115	Politics and Election
+C116	Politics and Election
+C117	Politics and Election
+C118	Politics and Election
+C119	Politics and Election
+C120	Politics and Election
+C121	Politics and Election
+C122	Politics and Election
+C123	Politics and Election
+C124	Politics and Election
+C125	Politics and Election
+C126	Politics and Election
+C127	Politics and Election
+C128	Politics and Election
+C129	Politics and Election
+C130	Political Tension and Trouble
+C131	Political Tension and Trouble
+C132	Political Tension and Trouble
+C133	Political Tension and Trouble
+C134	Political Tension and Trouble
+C135	Political Tension and Trouble
+C136	Political Tension and Trouble
+C137	Political Tension and Trouble
+C138	Political Tension and Trouble
+C139	Political Tension and Trouble
+C140	Political Tension and Trouble
+C141	Political Tension and Trouble
+C142	Political Tension and Trouble
+C143	Political Tension and Trouble
+C144	Political Tension and Trouble
+C145	Political Tension and Trouble
+C146	Political Tension and Trouble
+C147	Political Tension and Trouble
+C148	Political Tension and Trouble
+C149	Political Tension and Trouble
+C150	Social Classification and Situation
+C151	Social Classification and Situation
+C152	Social Classification and Situation
+C153	Social Classification and Situation
+C154	Social Classification and Situation
+C155	Social Classification and Situation
+C156	Social Classification and Situation
+C157	Social Classification and Situation
+C158	Social Classification and Situation
+C159	Social Classification and Situation
+C160	Social Classification and Situation
+C161	Social Classification and Situation
+C162	Social Classification and Situation
+C163	Social Classification and Situation
+C164	Social Classification and Situation
+C165	Social Classification and Situation
+C166	Social Classification and Situation
+C167	Social Classification and Situation
+C168	Social Classification and Situation
+C169	Social Classification and Situation
+C170	Social Classification and Situation
+C171	Social Classification and Situation
+C172	Social Classification and Situation
+C173	Social Classification and Situation
+C174	Social Classification and Situation
+C175	Social Classification and Situation
+C176	Social Classification and Situation
+C177	Social Classification and Situation
+C178	Social Classification and Situation
+C179	Social Classification and Situation
+C180	Law and Order Generally
+C181	Law and Order Generally
+C182	Law and Order Generally
+C183	Law and Order Generally
+C184	Law and Order Generally
+C185	Law and Order Generally
+C186	Law and Order Generally
+C187	Law and Order Generally
+C188	Law and Order Generally
+C189	Law and Order Generally
+C190	Law and Order Generally
+C191	Law and Order Generally
+C192	Law and Order Generally
+C193	Law and Order Generally
+C194	Law and Order Generally
+C195	Law and Order Generally
+C196	Law and Order Generally
+C197	Law and Order Generally
+C198	Law and Order Generally
+C199	Law and Order Generally
+C200	Courts of Law and Legal Work
+C201	Courts of Law and Legal Work
+C202	Courts of Law and Legal Work
+C203	Courts of Law and Legal Work
+C204	Courts of Law and Legal Work
+C205	Courts of Law and Legal Work
+C206	Courts of Law and Legal Work
+C207	Courts of Law and Legal Work
+C208	Courts of Law and Legal Work
+C209	Courts of Law and Legal Work
+C210	Courts of Law and Legal Work
+C211	Courts of Law and Legal Work
+C212	Courts of Law and Legal Work
+C213	Courts of Law and Legal Work
+C214	Courts of Law and Legal Work
+C215	Courts of Law and Legal Work
+C216	Courts of Law and Legal Work
+C217	Courts of Law and Legal Work
+C218	Courts of Law and Legal Work
+C219	Courts of Law and Legal Work
+C220	The Police, Security Services, Crime, and Criminals
+C221	The Police, Security Services, Crime, and Criminals
+C222	The Police, Security Services, Crime, and Criminals
+C223	The Police, Security Services, Crime, and Criminals
+C224	The Police, Security Services, Crime, and Criminals
+C225	The Police, Security Services, Crime, and Criminals
+C226	The Police, Security Services, Crime, and Criminals
+C227	The Police, Security Services, Crime, and Criminals
+C228	The Police, Security Services, Crime, and Criminals
+C229	The Police, Security Services, Crime, and Criminals
+C230	The Police, Security Services, Crime, and Criminals
+C231	The Police, Security Services, Crime, and Criminals
+C232	The Police, Security Services, Crime, and Criminals
+C233	The Police, Security Services, Crime, and Criminals
+C234	The Police, Security Services, Crime, and Criminals
+C235	The Police, Security Services, Crime, and Criminals
+C236	The Police, Security Services, Crime, and Criminals
+C237	The Police, Security Services, Crime, and Criminals
+C238	The Police, Security Services, Crime, and Criminals
+C239	The Police, Security Services, Crime, and Criminals
+C240	The Police, Security Services, Crime, and Criminals
+C241	The Police, Security Services, Crime, and Criminals
+C242	The Police, Security Services, Crime, and Criminals
+C243	The Police, Security Services, Crime, and Criminals
+C244	The Police, Security Services, Crime, and Criminals
+C245	The Police, Security Services, Crime, and Criminals
+C246	The Police, Security Services, Crime, and Criminals
+C247	The Police, Security Services, Crime, and Criminals
+C248	The Police, Security Services, Crime, and Criminals
+C249	The Police, Security Services, Crime, and Criminals
+C250	Prison and Punishment
+C251	Prison and Punishment
+C252	Prison and Punishment
+C253	Prison and Punishment
+C254	Prison and Punishment
+C255	Prison and Punishment
+C256	Prison and Punishment
+C257	Prison and Punishment
+C258	Prison and Punishment
+C259	Prison and Punishment
+C260	Prison and Punishment
+C261	Prison and Punishment
+C262	Prison and Punishment
+C263	Prison and Punishment
+C264	Prison and Punishment
+C265	Prison and Punishment
+C266	Prison and Punishment
+C267	Prison and Punishment
+C268	Prison and Punishment
+C269	Prison and Punishment
+C270	Warfare, Defense, and the Army
+C271	Warfare, Defense, and the Army
+C272	Warfare, Defense, and the Army
+C273	Warfare, Defense, and the Army
+C274	Warfare, Defense, and the Army
+C275	Warfare, Defense, and the Army
+C276	Warfare, Defense, and the Army
+C277	Warfare, Defense, and the Army
+C278	Warfare, Defense, and the Army
+C279	Warfare, Defense, and the Army
+C280	Warfare, Defense, and the Army
+C281	Warfare, Defense, and the Army
+C282	Warfare, Defense, and the Army
+C283	Warfare, Defense, and the Army
+C284	Warfare, Defense, and the Army
+C285	Warfare, Defense, and the Army
+C286	Warfare, Defense, and the Army
+C287	Warfare, Defense, and the Army
+C288	Warfare, Defense, and the Army
+C289	Warfare, Defense, and the Army
+C290	The Armed Forces
+C291	The Armed Forces
+C292	The Armed Forces
+C293	The Armed Forces
+C294	The Armed Forces
+C295	The Armed Forces
+C296	The Armed Forces
+C297	The Armed Forces
+C298	The Armed Forces
+C299	The Armed Forces
+C300	The Armed Forces
+C301	The Armed Forces
+C302	The Armed Forces
+C303	The Armed Forces
+C304	The Armed Forces
+C305	The Armed Forces
+C306	The Armed Forces
+C307	The Armed Forces
+C308	The Armed Forces
+C309	The Armed Forces
+C310	The Armed Forces
+C311	The Armed Forces
+C312	The Armed Forces
+C313	The Armed Forces
+C314	The Armed Forces
+C315	The Armed Forces
+C316	The Armed Forces
+C317	The Armed Forces
+C318	The Armed Forces
+C319	The Armed Forces
+C320	Religion and Beliefs
+D003	Architecture and Kinds of Houses and Buildings
+D004	Architecture and Kinds of Houses and Buildings
+D005	Architecture and Kinds of Houses and Buildings
+D006	Architecture and Kinds of Houses and Buildings
+D007	Architecture and Kinds of Houses and Buildings
+D008	Architecture and Kinds of Houses and Buildings
+D009	Architecture and Kinds of Houses and Buildings
+D010	Architecture and Kinds of Houses and Buildings
+D011	Architecture and Kinds of Houses and Buildings
+D012	Architecture and Kinds of Houses and Buildings
+D013	Architecture and Kinds of Houses and Buildings
+D014	Architecture and Kinds of Houses and Buildings
+D015	Architecture and Kinds of Houses and Buildings
+D016	Architecture and Kinds of Houses and Buildings
+D017	Architecture and Kinds of Houses and Buildings
+D018	Architecture and Kinds of Houses and Buildings
+D019	Architecture and Kinds of Houses and Buildings
+D020	Parts of Houses
+D021	Parts of Houses
+D022	Parts of Houses
+D023	Parts of Houses
+D024	Parts of Houses
+D025	Parts of Houses
+D026	Parts of Houses
+D027	Parts of Houses
+D028	Parts of Houses
+D029	Parts of Houses
+D030	Parts of Houses
+D031	Parts of Houses
+D032	Parts of Houses
+D033	Parts of Houses
+D034	Parts of Houses
+D035	Parts of Houses
+D036	Parts of Houses
+D037	Parts of Houses
+D038	Parts of Houses
+D039	Parts of Houses
+D040	Parts of Houses
+D041	Parts of Houses
+D042	Parts of Houses
+D043	Parts of Houses
+D044	Parts of Houses
+D045	Parts of Houses
+D046	Parts of Houses
+D047	Parts of Houses
+D048	Parts of Houses
+D049	Parts of Houses
+D050	Areas Around and Near Houses
+D051	Areas Around and Near Houses
+D052	Areas Around and Near Houses
+D053	Areas Around and Near Houses
+D054	Areas Around and Near Houses
+D055	Areas Around and Near Houses
+D056	Areas Around and Near Houses
+D057	Areas Around and Near Houses
+D058	Areas Around and Near Houses
+D059	Areas Around and Near Houses
+D060	Residence
+D061	Residence
+D062	Residence
+D063	Residence
+D064	Residence
+D065	Residence
+D066	Residence
+D067	Residence
+D068	Residence
+D069	Residence
+D070	Residence
+D071	Residence
+D072	Residence
+D073	Residence
+D074	Residence
+D075	Residence
+D076	Residence
+D077	Residence
+D078	Residence
+D079	Residence
+D080	Belonging and Owning, Getting and Giving
+D081	Belonging and Owning, Getting and Giving
+D082	Belonging and Owning, Getting and Giving
+D083	Belonging and Owning, Getting and Giving
+D084	Belonging and Owning, Getting and Giving
+D085	Belonging and Owning, Getting and Giving
+D086	Belonging and Owning, Getting and Giving
+D087	Belonging and Owning, Getting and Giving
+D088	Belonging and Owning, Getting and Giving
+D089	Belonging and Owning, Getting and Giving
+D090	Belonging and Owning, Getting and Giving
+D091	Belonging and Owning, Getting and Giving
+D092	Belonging and Owning, Getting and Giving
+D093	Belonging and Owning, Getting and Giving
+D094	Belonging and Owning, Getting and Giving
+D095	Belonging and Owning, Getting and Giving
+D096	Belonging and Owning, Getting and Giving
+D097	Belonging and Owning, Getting and Giving
+D098	Belonging and Owning, Getting and Giving
+D099	Belonging and Owning, Getting and Giving
+D100	Belonging and Owning, Getting and Giving
+D101	Belonging and Owning, Getting and Giving
+D102	Belonging and Owning, Getting and Giving
+D103	Belonging and Owning, Getting and Giving
+D104	Belonging and Owning, Getting and Giving
+D105	Belonging and Owning, Getting and Giving
+D106	Belonging and Owning, Getting and Giving
+D107	Belonging and Owning, Getting and Giving
+D108	Belonging and Owning, Getting and Giving
+D109	Belonging and Owning, Getting and Giving
+D110	Furniture and Household Fittings
+D111	Furniture and Household Fittings
+D112	Furniture and Household Fittings
+D113	Furniture and Household Fittings
+D114	Furniture and Household Fittings
+D115	Furniture and Household Fittings
+D116	Furniture and Household Fittings
+D117	Furniture and Household Fittings
+D118	Furniture and Household Fittings
+D119	Furniture and Household Fittings
+D120	Furniture and Household Fittings
+D121	Furniture and Household Fittings
+D122	Furniture and Household Fittings
+D123	Furniture and Household Fittings
+D124	Furniture and Household Fittings
+D125	Furniture and Household Fittings
+D126	Furniture and Household Fittings
+D127	Furniture and Household Fittings
+D128	Furniture and Household Fittings
+D129	Furniture and Household Fittings
+D130	Clothes and Personal Belongings
+D131	Clothes and Personal Belongings
+D132	Clothes and Personal Belongings
+D133	Clothes and Personal Belongings
+D134	Clothes and Personal Belongings
+D135	Clothes and Personal Belongings
+D136	Clothes and Personal Belongings
+D137	Clothes and Personal Belongings
+D138	Clothes and Personal Belongings
+D139	Clothes and Personal Belongings
+D140	Clothes and Personal Belongings
+D141	Clothes and Personal Belongings
+D142	Clothes and Personal Belongings
+D143	Clothes and Personal Belongings
+D144	Clothes and Personal Belongings
+D145	Clothes and Personal Belongings
+D146	Clothes and Personal Belongings
+D147	Clothes and Personal Belongings
+D148	Clothes and Personal Belongings
+D149	Clothes and Personal Belongings
+D150	Clothes and Personal Belongings
+D151	Clothes and Personal Belongings
+D152	Clothes and Personal Belongings
+D153	Clothes and Personal Belongings
+D154	Clothes and Personal Belongings
+D155	Clothes and Personal Belongings
+D156	Clothes and Personal Belongings
+D157	Clothes and Personal Belongings
+D158	Clothes and Personal Belongings
+D159	Clothes and Personal Belongings
+D160	Clothes and Personal Belongings
+D161	Clothes and Personal Belongings
+D162	Clothes and Personal Belongings
+D163	Clothes and Personal Belongings
+D164	Clothes and Personal Belongings
+D165	Clothes and Personal Belongings
+D166	Clothes and Personal Belongings
+D167	Clothes and Personal Belongings
+D168	Clothes and Personal Belongings
+D169	Clothes and Personal Belongings
+D170	Cleaning and Personal Care
+E001	Food Generally
+E002	Food Generally
+E003	Food Generally
+E004	Food Generally
+E005	Food Generally
+E006	Food Generally
+E007	Food Generally
+E008	Food Generally
+E009	Food Generally
+E010	Food Generally
+E011	Food Generally
+E012	Food Generally
+E013	Food Generally
+E014	Food Generally
+E015	Food Generally
+E016	Food Generally
+E017	Food Generally
+E018	Food Generally
+E019	Food Generally
+E020	Food Generally
+E021	Food Generally
+E022	Food Generally
+E023	Food Generally
+E024	Food Generally
+E025	Food Generally
+E026	Food Generally
+E027	Food Generally
+E028	Food Generally
+E029	Food Generally
+E030	Food
+E031	Food
+E032	Food
+E033	Food
+E034	Food
+E035	Food
+E036	Food
+E037	Food
+E038	Food
+E039	Food
+E040	Food
+E041	Food
+E042	Food
+E043	Food
+E044	Food
+E045	Food
+E046	Food
+E047	Food
+E048	Food
+E049	Food
+E050	Food
+E051	Food
+E052	Food
+E053	Food
+E054	Food
+E055	Food
+E056	Food
+E057	Food
+E058	Food
+E059	Food
+E060	Drinks
+E061	Drinks
+E062	Drinks
+E063	Drinks
+E064	Drinks
+E065	Drinks
+E066	Drinks
+E067	Drinks
+E068	Drinks
+E069	Drinks
+E070	Drinks
+E071	Drinks
+E072	Drinks
+E073	Drinks
+E074	Drinks
+E075	Drinks
+E076	Drinks
+E077	Drinks
+E078	Drinks
+E079	Drinks
+E080	Cigarettes and Drugs
+E081	Cigarettes and Drugs
+E082	Cigarettes and Drugs
+E083	Cigarettes and Drugs
+E084	Cigarettes and Drugs
+E085	Cigarettes and Drugs
+E086	Cigarettes and Drugs
+E087	Cigarettes and Drugs
+E088	Cigarettes and Drugs
+E089	Cigarettes and Drugs
+E090	Cigarettes and Drugs
+E091	Cigarettes and Drugs
+E092	Cigarettes and Drugs
+E093	Cigarettes and Drugs
+E094	Cigarettes and Drugs
+E095	Cigarettes and Drugs
+E096	Cigarettes and Drugs
+E097	Cigarettes and Drugs
+E098	Cigarettes and Drugs
+E099	Cigarettes and Drugs
+E100	The Preparation and Quality of Food
+E101	The Preparation and Quality of Food
+E102	The Preparation and Quality of Food
+E103	The Preparation and Quality of Food
+E104	The Preparation and Quality of Food
+E105	The Preparation and Quality of Food
+E106	The Preparation and Quality of Food
+E107	The Preparation and Quality of Food
+E108	The Preparation and Quality of Food
+E109	The Preparation and Quality of Food
+E110	The Preparation and Quality of Food
+E111	The Preparation and Quality of Food
+E112	The Preparation and Quality of Food
+E113	The Preparation and Quality of Food
+E114	The Preparation and Quality of Food
+E115	The Preparation and Quality of Food
+E116	The Preparation and Quality of Food
+E117	The Preparation and Quality of Food
+E118	The Preparation and Quality of Food
+E119	The Preparation and Quality of Food
+E120	Places and People Associated with Food and Drink
+E121	Places and People Associated with Food and Drink
+E122	Places and People Associated with Food and Drink
+E123	Places and People Associated with Food and Drink
+E124	Places and People Associated with Food and Drink
+E125	Places and People Associated with Food and Drink
+E126	Places and People Associated with Food and Drink
+E127	Places and People Associated with Food and Drink
+E128	Places and People Associated with Food and Drink
+E129	Places and People Associated with Food and Drink
+E130	Farming
+F001	Feeling and Behavior Generally
+F002	Feeling and Behavior Generally
+F003	Feeling and Behavior Generally
+F004	Feeling and Behavior Generally
+F005	Feeling and Behavior Generally
+F006	Feeling and Behavior Generally
+F007	Feeling and Behavior Generally
+F008	Feeling and Behavior Generally
+F009	Feeling and Behavior Generally
+F010	Feeling and Behavior Generally
+F011	Feeling and Behavior Generally
+F012	Feeling and Behavior Generally
+F013	Feeling and Behavior Generally
+F014	Feeling and Behavior Generally
+F015	Feeling and Behavior Generally
+F016	Feeling and Behavior Generally
+F017	Feeling and Behavior Generally
+F018	Feeling and Behavior Generally
+F019	Feeling and Behavior Generally
+F020	Linking and Not Linking
+F021	Linking and Not Linking
+F022	Linking and Not Linking
+F023	Linking and Not Linking
+F024	Linking and Not Linking
+F025	Linking and Not Linking
+F026	Linking and Not Linking
+F027	Linking and Not Linking
+F028	Linking and Not Linking
+F029	Linking and Not Linking
+F030	Linking and Not Linking
+F031	Linking and Not Linking
+F032	Linking and Not Linking
+F033	Linking and Not Linking
+F034	Linking and Not Linking
+F035	Linking and Not Linking
+F036	Linking and Not Linking
+F037	Linking and Not Linking
+F038	Linking and Not Linking
+F039	Linking and Not Linking
+F040	Linking and Not Linking
+F041	Linking and Not Linking
+F042	Linking and Not Linking
+F043	Linking and Not Linking
+F044	Linking and Not Linking
+F045	Linking and Not Linking
+F046	Linking and Not Linking
+F047	Linking and Not Linking
+F048	Linking and Not Linking
+F049	Linking and Not Linking
+F050	Good and Evil
+F051	Good and Evil
+F052	Good and Evil
+F053	Good and Evil
+F054	Good and Evil
+F055	Good and Evil
+F056	Good and Evil
+F057	Good and Evil
+F058	Good and Evil
+F059	Good and Evil
+F060	Good and Evil
+F061	Good and Evil
+F062	Good and Evil
+F063	Good and Evil
+F064	Good and Evil
+F065	Good and Evil
+F066	Good and Evil
+F067	Good and Evil
+F068	Good and Evil
+F069	Good and Evil
+F070	Happiness and Sadness
+F071	Happiness and Sadness
+F072	Happiness and Sadness
+F073	Happiness and Sadness
+F074	Happiness and Sadness
+F075	Happiness and Sadness
+F076	Happiness and Sadness
+F077	Happiness and Sadness
+F078	Happiness and Sadness
+F079	Happiness and Sadness
+F080	Happiness and Sadness
+F081	Happiness and Sadness
+F082	Happiness and Sadness
+F083	Happiness and Sadness
+F084	Happiness and Sadness
+F085	Happiness and Sadness
+F086	Happiness and Sadness
+F087	Happiness and Sadness
+F088	Happiness and Sadness
+F089	Happiness and Sadness
+F090	Happiness and Sadness
+F091	Happiness and Sadness
+F092	Happiness and Sadness
+F093	Happiness and Sadness
+F094	Happiness and Sadness
+F095	Happiness and Sadness
+F096	Happiness and Sadness
+F097	Happiness and Sadness
+F098	Happiness and Sadness
+F099	Happiness and Sadness
+F100	Anger, Violence, Stress, Calm, Quietness
+F101	Anger, Violence, Stress, Calm, Quietness
+F102	Anger, Violence, Stress, Calm, Quietness
+F103	Anger, Violence, Stress, Calm, Quietness
+F104	Anger, Violence, Stress, Calm, Quietness
+F105	Anger, Violence, Stress, Calm, Quietness
+F106	Anger, Violence, Stress, Calm, Quietness
+F107	Anger, Violence, Stress, Calm, Quietness
+F108	Anger, Violence, Stress, Calm, Quietness
+F109	Anger, Violence, Stress, Calm, Quietness
+F110	Anger, Violence, Stress, Calm, Quietness
+F111	Anger, Violence, Stress, Calm, Quietness
+F112	Anger, Violence, Stress, Calm, Quietness
+F113	Anger, Violence, Stress, Calm, Quietness
+F114	Anger, Violence, Stress, Calm, Quietness
+F115	Anger, Violence, Stress, Calm, Quietness
+F116	Anger, Violence, Stress, Calm, Quietness
+F117	Anger, Violence, Stress, Calm, Quietness
+F118	Anger, Violence, Stress, Calm, Quietness
+F119	Anger, Violence, Stress, Calm, Quietness
+F120	Fear and Courage
+F121	Fear and Courage
+F122	Fear and Courage
+F123	Fear and Courage
+F124	Fear and Courage
+F125	Fear and Courage
+F126	Fear and Courage
+F127	Fear and Courage
+F128	Fear and Courage
+F129	Fear and Courage
+F130	Fear and Courage
+F131	Fear and Courage
+F132	Fear and Courage
+F133	Fear and Courage
+F134	Fear and Courage
+F135	Fear and Courage
+F136	Fear and Courage
+F137	Fear and Courage
+F138	Fear and Courage
+F139	Fear and Courage
+F140	Admiration, Pride, Contempt, and Abuse
+F141	Admiration, Pride, Contempt, and Abuse
+F142	Admiration, Pride, Contempt, and Abuse
+F143	Admiration, Pride, Contempt, and Abuse
+F144	Admiration, Pride, Contempt, and Abuse
+F145	Admiration, Pride, Contempt, and Abuse
+F146	Admiration, Pride, Contempt, and Abuse
+F147	Admiration, Pride, Contempt, and Abuse
+F148	Admiration, Pride, Contempt, and Abuse
+F149	Admiration, Pride, Contempt, and Abuse
+F150	Admiration, Pride, Contempt, and Abuse
+F151	Admiration, Pride, Contempt, and Abuse
+F152	Admiration, Pride, Contempt, and Abuse
+F153	Admiration, Pride, Contempt, and Abuse
+F154	Admiration, Pride, Contempt, and Abuse
+F155	Admiration, Pride, Contempt, and Abuse
+F156	Admiration, Pride, Contempt, and Abuse
+F157	Admiration, Pride, Contempt, and Abuse
+F158	Admiration, Pride, Contempt, and Abuse
+F159	Admiration, Pride, Contempt, and Abuse
+F160	Admiration, Pride, Contempt, and Abuse
+F161	Admiration, Pride, Contempt, and Abuse
+F162	Admiration, Pride, Contempt, and Abuse
+F163	Admiration, Pride, Contempt, and Abuse
+F164	Admiration, Pride, Contempt, and Abuse
+F165	Admiration, Pride, Contempt, and Abuse
+F166	Admiration, Pride, Contempt, and Abuse
+F167	Admiration, Pride, Contempt, and Abuse
+F168	Admiration, Pride, Contempt, and Abuse
+F169	Admiration, Pride, Contempt, and Abuse
+F170	Kindness and Unkindness
+F171	Kindness and Unkindness
+F172	Kindness and Unkindness
+F173	Kindness and Unkindness
+F174	Kindness and Unkindness
+F175	Kindness and Unkindness
+F176	Kindness and Unkindness
+F177	Kindness and Unkindness
+F178	Kindness and Unkindness
+F179	Kindness and Unkindness
+F180	Kindness and Unkindness
+F181	Kindness and Unkindness
+F182	Kindness and Unkindness
+F183	Kindness and Unkindness
+F184	Kindness and Unkindness
+F185	Kindness and Unkindness
+F186	Kindness and Unkindness
+F187	Kindness and Unkindness
+F188	Kindness and Unkindness
+F189	Kindness and Unkindness
+F190	Honesty, Loyalty, Trickery, and Deceit
+F191	Honesty, Loyalty, Trickery, and Deceit
+F192	Honesty, Loyalty, Trickery, and Deceit
+F193	Honesty, Loyalty, Trickery, and Deceit
+F194	Honesty, Loyalty, Trickery, and Deceit
+F195	Honesty, Loyalty, Trickery, and Deceit
+F196	Honesty, Loyalty, Trickery, and Deceit
+F197	Honesty, Loyalty, Trickery, and Deceit
+F198	Honesty, Loyalty, Trickery, and Deceit
+F199	Honesty, Loyalty, Trickery, and Deceit
+F200	Honesty, Loyalty, Trickery, and Deceit
+F201	Honesty, Loyalty, Trickery, and Deceit
+F202	Honesty, Loyalty, Trickery, and Deceit
+F203	Honesty, Loyalty, Trickery, and Deceit
+F204	Honesty, Loyalty, Trickery, and Deceit
+F205	Honesty, Loyalty, Trickery, and Deceit
+F206	Honesty, Loyalty, Trickery, and Deceit
+F207	Honesty, Loyalty, Trickery, and Deceit
+F208	Honesty, Loyalty, Trickery, and Deceit
+F209	Honesty, Loyalty, Trickery, and Deceit
+F210	Honesty, Loyalty, Trickery, and Deceit
+F211	Honesty, Loyalty, Trickery, and Deceit
+F212	Honesty, Loyalty, Trickery, and Deceit
+F213	Honesty, Loyalty, Trickery, and Deceit
+F214	Honesty, Loyalty, Trickery, and Deceit
+F215	Honesty, Loyalty, Trickery, and Deceit
+F216	Honesty, Loyalty, Trickery, and Deceit
+F217	Honesty, Loyalty, Trickery, and Deceit
+F218	Honesty, Loyalty, Trickery, and Deceit
+F219	Honesty, Loyalty, Trickery, and Deceit
+F220	Relaxation, Excitement, Interest, and Surprise
+F221	Relaxation, Excitement, Interest, and Surprise
+F222	Relaxation, Excitement, Interest, and Surprise
+F223	Relaxation, Excitement, Interest, and Surprise
+F224	Relaxation, Excitement, Interest, and Surprise
+F225	Relaxation, Excitement, Interest, and Surprise
+F226	Relaxation, Excitement, Interest, and Surprise
+F227	Relaxation, Excitement, Interest, and Surprise
+F228	Relaxation, Excitement, Interest, and Surprise
+F229	Relaxation, Excitement, Interest, and Surprise
+F230	Relaxation, Excitement, Interest, and Surprise
+F231	Relaxation, Excitement, Interest, and Surprise
+F232	Relaxation, Excitement, Interest, and Surprise
+F233	Relaxation, Excitement, Interest, and Surprise
+F234	Relaxation, Excitement, Interest, and Surprise
+F235	Relaxation, Excitement, Interest, and Surprise
+F236	Relaxation, Excitement, Interest, and Surprise
+F237	Relaxation, Excitement, Interest, and Surprise
+F238	Relaxation, Excitement, Interest, and Surprise
+F239	Relaxation, Excitement, Interest, and Surprise
+F240	Action of the Face related to Feelings
+F241	Action of the Face related to Feelings
+F242	Action of the Face related to Feelings
+F243	Action of the Face related to Feelings
+F244	Action of the Face related to Feelings
+F245	Action of the Face related to Feelings
+F246	Action of the Face related to Feelings
+F247	Action of the Face related to Feelings
+F248	Action of the Face related to Feelings
+F249	Action of the Face related to Feelings
+F250	Action of the Face related to Feelings
+F251	Action of the Face related to Feelings
+F252	Action of the Face related to Feelings
+F253	Action of the Face related to Feelings
+F254	Action of the Face related to Feelings
+F255	Action of the Face related to Feelings
+F256	Action of the Face related to Feelings
+F257	Action of the Face related to Feelings
+F258	Action of the Face related to Feelings
+F259	Action of the Face related to Feelings
+F260	Senses and Sensations
+G001	Thinking, Judging and Remembering-
+G002	Thinking, Judging and Remembering-
+G003	Thinking, Judging and Remembering-
+G004	Thinking, Judging and Remembering-
+G005	Thinking, Judging and Remembering-
+G006	Thinking, Judging and Remembering-
+G007	Thinking, Judging and Remembering-
+G008	Thinking, Judging and Remembering-
+G009	Thinking, Judging and Remembering-
+G010	Thinking, Judging and Remembering-
+G011	Thinking, Judging and Remembering-
+G012	Thinking, Judging and Remembering-
+G013	Thinking, Judging and Remembering-
+G014	Thinking, Judging and Remembering-
+G015	Thinking, Judging and Remembering-
+G016	Thinking, Judging and Remembering-
+G017	Thinking, Judging and Remembering-
+G018	Thinking, Judging and Remembering-
+G019	Thinking, Judging and Remembering-
+G020	Thinking, Judging and Remembering-
+G021	Thinking, Judging and Remembering-
+G022	Thinking, Judging and Remembering-
+G023	Thinking, Judging and Remembering-
+G024	Thinking, Judging and Remembering-
+G025	Thinking, Judging and Remembering-
+G026	Thinking, Judging and Remembering-
+G027	Thinking, Judging and Remembering-
+G028	Thinking, Judging and Remembering-
+G029	Thinking, Judging and Remembering-
+G030	Knowing and Learning
+G031	Knowing and Learning
+G032	Knowing and Learning
+G033	Knowing and Learning
+G034	Knowing and Learning
+G035	Knowing and Learning
+G036	Knowing and Learning
+G037	Knowing and Learning
+G038	Knowing and Learning
+G039	Knowing and Learning
+G040	Knowing and Learning
+G041	Knowing and Learning
+G042	Knowing and Learning
+G043	Knowing and Learning
+G044	Knowing and Learning
+G045	Knowing and Learning
+G046	Knowing and Learning
+G047	Knowing and Learning
+G048	Knowing and Learning
+G049	Knowing and Learning
+G050	Knowing and Learning
+G051	Knowing and Learning
+G052	Knowing and Learning
+G053	Knowing and Learning
+G054	Knowing and Learning
+G055	Knowing and Learning
+G056	Knowing and Learning
+G057	Knowing and Learning
+G058	Knowing and Learning
+G059	Knowing and Learning
+G060	Communicating, mainly by Speaking and Talking
+G061	Communicating, mainly by Speaking and Talking
+G062	Communicating, mainly by Speaking and Talking
+G063	Communicating, mainly by Speaking and Talking
+G064	Communicating, mainly by Speaking and Talking
+G065	Communicating, mainly by Speaking and Talking
+G066	Communicating, mainly by Speaking and Talking
+G067	Communicating, mainly by Speaking and Talking
+G068	Communicating, mainly by Speaking and Talking
+G069	Communicating, mainly by Speaking and Talking
+G070	Communicating, mainly by Speaking and Talking
+G071	Communicating, mainly by Speaking and Talking
+G072	Communicating, mainly by Speaking and Talking
+G073	Communicating, mainly by Speaking and Talking
+G074	Communicating, mainly by Speaking and Talking
+G075	Communicating, mainly by Speaking and Talking
+G076	Communicating, mainly by Speaking and Talking
+G077	Communicating, mainly by Speaking and Talking
+G078	Communicating, mainly by Speaking and Talking
+G079	Communicating, mainly by Speaking and Talking
+G080	Communicating, mainly by Speaking and Talking
+G081	Communicating, mainly by Speaking and Talking
+G082	Communicating, mainly by Speaking and Talking
+G083	Communicating, mainly by Speaking and Talking
+G084	Communicating, mainly by Speaking and Talking
+G085	Communicating, mainly by Speaking and Talking
+G086	Communicating, mainly by Speaking and Talking
+G087	Communicating, mainly by Speaking and Talking
+G088	Communicating, mainly by Speaking and Talking
+G089	Communicating, mainly by Speaking and Talking
+G090	Communicating, mainly by Speaking and Talking
+G091	Communicating, mainly by Speaking and Talking
+G092	Communicating, mainly by Speaking and Talking
+G093	Communicating, mainly by Speaking and Talking
+G094	Communicating, mainly by Speaking and Talking
+G095	Communicating, mainly by Speaking and Talking
+G096	Communicating, mainly by Speaking and Talking
+G097	Communicating, mainly by Speaking and Talking
+G098	Communicating, mainly by Speaking and Talking
+G099	Communicating, mainly by Speaking and Talking
+G100	Communicating, mainly by Speaking and Talking
+G101	Communicating, mainly by Speaking and Talking
+G102	Communicating, mainly by Speaking and Talking
+G103	Communicating, mainly by Speaking and Talking
+G104	Communicating, mainly by Speaking and Talking
+G105	Communicating, mainly by Speaking and Talking
+G106	Communicating, mainly by Speaking and Talking
+G107	Communicating, mainly by Speaking and Talking
+G108	Communicating, mainly by Speaking and Talking
+G109	Communicating, mainly by Speaking and Talking
+G110	Communicating, mainly by Speaking and Talking
+G111	Communicating, mainly by Speaking and Talking
+G112	Communicating, mainly by Speaking and Talking
+G113	Communicating, mainly by Speaking and Talking
+G114	Communicating, mainly by Speaking and Talking
+G115	Communicating, mainly by Speaking and Talking
+G116	Communicating, mainly by Speaking and Talking
+G117	Communicating, mainly by Speaking and Talking
+G118	Communicating, mainly by Speaking and Talking
+G119	Communicating, mainly by Speaking and Talking
+G120	Communicating, mainly by Speaking and Talking
+G121	Communicating, mainly by Speaking and Talking
+G122	Communicating, mainly by Speaking and Talking
+G123	Communicating, mainly by Speaking and Talking
+G124	Communicating, mainly by Speaking and Talking
+G125	Communicating, mainly by Speaking and Talking
+G126	Communicating, mainly by Speaking and Talking
+G127	Communicating, mainly by Speaking and Talking
+G128	Communicating, mainly by Speaking and Talking
+G129	Communicating, mainly by Speaking and Talking
+G130	Communicating, mainly by Speaking and Talking
+G131	Communicating, mainly by Speaking and Talking
+G132	Communicating, mainly by Speaking and Talking
+G133	Communicating, mainly by Speaking and Talking
+G134	Communicating, mainly by Speaking and Talking
+G135	Communicating, mainly by Speaking and Talking
+G136	Communicating, mainly by Speaking and Talking
+G137	Communicating, mainly by Speaking and Talking
+G138	Communicating, mainly by Speaking and Talking
+G139	Communicating, mainly by Speaking and Talking
+G140	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G141	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G142	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G143	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G144	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G145	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G146	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G147	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G148	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G149	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G150	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G151	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G152	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G153	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G154	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G155	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G156	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G157	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G158	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G159	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G160	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G161	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G162	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G163	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G164	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G165	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G166	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G167	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G168	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G169	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G170	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G171	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G172	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G173	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G174	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G175	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G176	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G177	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G178	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G179	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G180	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G181	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G182	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G183	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G184	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G185	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G186	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G187	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G188	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G189	Communicating, mainly by Reading and Writing, Printing and Publishing, Radio andF
+G190	Communication and Information
+G191	Communication and Information
+G192	Communication and Information
+G193	Communication and Information
+G194	Communication and Information
+G195	Communication and Information
+G196	Communication and Information
+G197	Communication and Information
+G198	Communication and Information
+G199	Communication and Information
+G200	Communication and Information
+G201	Communication and Information
+G202	Communication and Information
+G203	Communication and Information
+G204	Communication and Information
+G205	Communication and Information
+G206	Communication and Information
+G207	Communication and Information
+G208	Communication and Information
+G209	Communication and Information
+G210	Communication and Information
+G211	Communication and Information
+G212	Communication and Information
+G213	Communication and Information
+G214	Communication and Information
+G215	Communication and Information
+G216	Communication and Information
+G217	Communication and Information
+G218	Communication and Information
+G219	Communication and Information
+G220	Communication and Information
+G221	Communication and Information
+G222	Communication and Information
+G223	Communication and Information
+G224	Communication and Information
+G225	Communication and Information
+G226	Communication and Information
+G227	Communication and Information
+G228	Communication and Information
+G229	Communication and Information
+G230	Language
+G231	Language
+G232	Language
+G233	Language
+G234	Language
+G235	Language
+G236	Language
+G237	Language
+G238	Language
+G239	Language
+G240	Language
+G241	Language
+G242	Language
+G243	Language
+G244	Language
+G245	Language
+G246	Language
+G247	Language
+G248	Language
+G249	Language
+G250	Language
+G251	Language
+G252	Language
+G253	Language
+G254	Language
+G255	Language
+G256	Language
+G257	Language
+G258	Language
+G259	Language
+G260	Grammar
+G261	Grammar
+G262	Grammar
+G263	Grammar
+G264	Grammar
+G265	Grammar
+G266	Grammar
+G267	Grammar
+G268	Grammar
+G269	Grammar
+G270	Grammar
+G271	Grammar
+G272	Grammar
+G273	Grammar
+G274	Grammar
+G275	Grammar
+G276	Grammar
+G277	Grammar
+G278	Grammar
+G279	Grammar
+G280	General Grammatical Words
+H001	Substances and MaterialsGenerally
+H002	Substances and MaterialsGenerally
+H003	Substances and MaterialsGenerally
+H004	Substances and MaterialsGenerally
+H005	Substances and MaterialsGenerally
+H006	Substances and MaterialsGenerally
+H007	Substances and MaterialsGenerally
+H008	Substances and MaterialsGenerally
+H009	Substances and MaterialsGenerally
+H010	Substances and MaterialsGenerally
+H011	Substances and MaterialsGenerally
+H012	Substances and MaterialsGenerally
+H013	Substances and MaterialsGenerally
+H014	Substances and MaterialsGenerally
+H015	Substances and MaterialsGenerally
+H016	Substances and MaterialsGenerally
+H017	Substances and MaterialsGenerally
+H018	Substances and MaterialsGenerally
+H019	Substances and MaterialsGenerally
+H020	Substances and MaterialsGenerally
+H021	Substances and MaterialsGenerally
+H022	Substances and MaterialsGenerally
+H023	Substances and MaterialsGenerally
+H024	Substances and MaterialsGenerally
+H025	Substances and MaterialsGenerally
+H026	Substances and MaterialsGenerally
+H027	Substances and MaterialsGenerally
+H028	Substances and MaterialsGenerally
+H029	Substances and MaterialsGenerally
+H030	Objects Generally
+H031	Objects Generally
+H032	Objects Generally
+H033	Objects Generally
+H034	Objects Generally
+H035	Objects Generally
+H036	Objects Generally
+H037	Objects Generally
+H038	Objects Generally
+H039	Objects Generally
+H040	Objects Generally
+H041	Objects Generally
+H042	Objects Generally
+H043	Objects Generally
+H044	Objects Generally
+H045	Objects Generally
+H046	Objects Generally
+H047	Objects Generally
+H048	Objects Generally
+H049	Objects Generally
+H050	Objects Generally
+H051	Objects Generally
+H052	Objects Generally
+H053	Objects Generally
+H054	Objects Generally
+H055	Objects Generally
+H056	Objects Generally
+H057	Objects Generally
+H058	Objects Generally
+H059	Objects Generally
+H060	Specific Substance and Materials
+H061	Specific Substance and Materials
+H062	Specific Substance and Materials
+H063	Specific Substance and Materials
+H064	Specific Substance and Materials
+H065	Specific Substance and Materials
+H066	Specific Substance and Materials
+H067	Specific Substance and Materials
+H068	Specific Substance and Materials
+H069	Specific Substance and Materials
+H070	Specific Substance and Materials
+H071	Specific Substance and Materials
+H072	Specific Substance and Materials
+H073	Specific Substance and Materials
+H074	Specific Substance and Materials
+H075	Specific Substance and Materials
+H076	Specific Substance and Materials
+H077	Specific Substance and Materials
+H078	Specific Substance and Materials
+H079	Specific Substance and Materials
+H080	Specific Substance and Materials
+H081	Specific Substance and Materials
+H082	Specific Substance and Materials
+H083	Specific Substance and Materials
+H084	Specific Substance and Materials
+H085	Specific Substance and Materials
+H086	Specific Substance and Materials
+H087	Specific Substance and Materials
+H088	Specific Substance and Materials
+H089	Specific Substance and Materials
+H090	Specific Substance and Materials
+H091	Specific Substance and Materials
+H092	Specific Substance and Materials
+H093	Specific Substance and Materials
+H094	Specific Substance and Materials
+H095	Specific Substance and Materials
+H096	Specific Substance and Materials
+H097	Specific Substance and Materials
+H098	Specific Substance and Materials
+H099	Specific Substance and Materials
+H100	Specific Substance and Materials
+H101	Specific Substance and Materials
+H102	Specific Substance and Materials
+H103	Specific Substance and Materials
+H104	Specific Substance and Materials
+H105	Specific Substance and Materials
+H106	Specific Substance and Materials
+H107	Specific Substance and Materials
+H108	Specific Substance and Materials
+H109	Specific Substance and Materials
+H110	Equipment, Machines, and Instruments
+H111	Equipment, Machines, and Instruments
+H112	Equipment, Machines, and Instruments
+H113	Equipment, Machines, and Instruments
+H114	Equipment, Machines, and Instruments
+H115	Equipment, Machines, and Instruments
+H116	Equipment, Machines, and Instruments
+H117	Equipment, Machines, and Instruments
+H118	Equipment, Machines, and Instruments
+H119	Equipment, Machines, and Instruments
+H120	Equipment, Machines, and Instruments
+H121	Equipment, Machines, and Instruments
+H122	Equipment, Machines, and Instruments
+H123	Equipment, Machines, and Instruments
+H124	Equipment, Machines, and Instruments
+H125	Equipment, Machines, and Instruments
+H126	Equipment, Machines, and Instruments
+H127	Equipment, Machines, and Instruments
+H128	Equipment, Machines, and Instruments
+H129	Equipment, Machines, and Instruments
+H130	Equipment, Machines, and Instruments
+H131	Equipment, Machines, and Instruments
+H132	Equipment, Machines, and Instruments
+H133	Equipment, Machines, and Instruments
+H134	Equipment, Machines, and Instruments
+H135	Equipment, Machines, and Instruments
+H136	Equipment, Machines, and Instruments
+H137	Equipment, Machines, and Instruments
+H138	Equipment, Machines, and Instruments
+H139	Equipment, Machines, and Instruments
+H140	Tools
+H141	Tools
+H142	Tools
+H143	Tools
+H144	Tools
+H145	Tools
+H146	Tools
+H147	Tools
+H148	Tools
+H149	Tools
+H150	Tools
+H151	Tools
+H152	Tools
+H153	Tools
+H154	Tools
+H155	Tools
+H156	Tools
+H157	Tools
+H158	Tools
+H159	Tools
+H160	Tools
+H161	Tools
+H162	Tools
+H163	Tools
+H164	Tools
+H165	Tools
+H166	Tools
+H167	Tools
+H168	Tools
+H169	Tools
+H170	Containers
+H171	Containers
+H172	Containers
+H173	Containers
+H174	Containers
+H175	Containers
+H176	Containers
+H177	Containers
+H178	Containers
+H179	Containers
+H180	Containers
+H181	Containers
+H182	Containers
+H183	Containers
+H184	Containers
+H185	Containers
+H186	Containers
+H187	Containers
+H188	Containers
+H189	Containers
+H190	Containers
+H191	Containers
+H192	Containers
+H193	Containers
+H194	Containers
+H195	Containers
+H196	Containers
+H197	Containers
+H198	Containers
+H199	Containers
+H200	Electricity and Electrical Equipment
+H201	Electricity and Electrical Equipment
+H202	Electricity and Electrical Equipment
+H203	Electricity and Electrical Equipment
+H204	Electricity and Electrical Equipment
+H205	Electricity and Electrical Equipment
+H206	Electricity and Electrical Equipment
+H207	Electricity and Electrical Equipment
+H208	Electricity and Electrical Equipment
+H209	Electricity and Electrical Equipment
+H210	Electricity and Electrical Equipment
+H211	Electricity and Electrical Equipment
+H212	Electricity and Electrical Equipment
+H213	Electricity and Electrical Equipment
+H214	Electricity and Electrical Equipment
+H215	Electricity and Electrical Equipment
+H216	Electricity and Electrical Equipment
+H217	Electricity and Electrical Equipment
+H218	Electricity and Electrical Equipment
+H219	Electricity and Electrical Equipment
+H220	Electricity and Electrical Equipment
+H221	Electricity and Electrical Equipment
+H222	Electricity and Electrical Equipment
+H223	Electricity and Electrical Equipment
+H224	Electricity and Electrical Equipment
+H225	Electricity and Electrical Equipment
+H226	Electricity and Electrical Equipment
+H227	Electricity and Electrical Equipment
+H228	Electricity and Electrical Equipment
+H229	Electricity and Electrical Equipment
+H230	Weapons
+I001	Making things
+I002	Making things
+I003	Making things
+I004	Making things
+I005	Making things
+I006	Making things
+I007	Making things
+I008	Making things
+I009	Making things
+I010	Making things
+I011	Making things
+I012	Making things
+I013	Making things
+I014	Making things
+I015	Making things
+I016	Making things
+I017	Making things
+I018	Making things
+I019	Making things
+I020	Making things
+I021	Making things
+I022	Making things
+I023	Making things
+I024	Making things
+I025	Making things
+I026	Making things
+I027	Making things
+I028	Making things
+I029	Making things
+I030	Making things
+I031	Making things
+I032	Making things
+I033	Making things
+I034	Making things
+I035	Making things
+I036	Making things
+I037	Making things
+I038	Making things
+I039	Making things
+I040	Arts and Crafts
+I041	Arts and Crafts
+I042	Arts and Crafts
+I043	Arts and Crafts
+I044	Arts and Crafts
+I045	Arts and Crafts
+I046	Arts and Crafts
+I047	Arts and Crafts
+I048	Arts and Crafts
+I049	Arts and Crafts
+I050	Arts and Crafts
+I051	Arts and Crafts
+I052	Arts and Crafts
+I053	Arts and Crafts
+I054	Arts and Crafts
+I055	Arts and Crafts
+I056	Arts and Crafts
+I057	Arts and Crafts
+I058	Arts and Crafts
+I059	Arts and Crafts
+I060	Arts and Crafts
+I061	Arts and Crafts
+I062	Arts and Crafts
+I063	Arts and Crafts
+I064	Arts and Crafts
+I065	Arts and Crafts
+I066	Arts and Crafts
+I067	Arts and Crafts
+I068	Arts and Crafts
+I069	Arts and Crafts
+I070	Science and Technology
+I071	Science and Technology
+I072	Science and Technology
+I073	Science and Technology
+I074	Science and Technology
+I075	Science and Technology
+I076	Science and Technology
+I077	Science and Technology
+I078	Science and Technology
+I079	Science and Technology
+I080	Science and Technology
+I081	Science and Technology
+I082	Science and Technology
+I083	Science and Technology
+I084	Science and Technology
+I085	Science and Technology
+I086	Science and Technology
+I087	Science and Technology
+I088	Science and Technology
+I089	Science and Technology
+I090	Science and Technology
+I091	Science and Technology
+I092	Science and Technology
+I093	Science and Technology
+I094	Science and Technology
+I095	Science and Technology
+I096	Science and Technology
+I097	Science and Technology
+I098	Science and Technology
+I099	Science and Technology
+I100	Industry and Work
+I101	Industry and Work
+I102	Industry and Work
+I103	Industry and Work
+I104	Industry and Work
+I105	Industry and Work
+I106	Industry and Work
+I107	Industry and Work
+I108	Industry and Work
+I109	Industry and Work
+I110	Industry and Work
+I111	Industry and Work
+I112	Industry and Work
+I113	Industry and Work
+I114	Industry and Work
+I115	Industry and Work
+I116	Industry and Work
+I117	Industry and Work
+I118	Industry and Work
+I119	Industry and Work
+I120	Industry and Work
+I121	Industry and Work
+I122	Industry and Work
+I123	Industry and Work
+I124	Industry and Work
+I125	Industry and Work
+I126	Industry and Work
+I127	Industry and Work
+I128	Industry and Work
+I129	Industry and Work
+I130	Education
+J001	Numbers and Quantities
+J002	Numbers and Quantities
+J003	Numbers and Quantities
+J004	Numbers and Quantities
+J005	Numbers and Quantities
+J006	Numbers and Quantities
+J007	Numbers and Quantities
+J008	Numbers and Quantities
+J009	Numbers and Quantities
+J010	Numbers and Quantities
+J011	Numbers and Quantities
+J012	Numbers and Quantities
+J013	Numbers and Quantities
+J014	Numbers and Quantities
+J015	Numbers and Quantities
+J016	Numbers and Quantities
+J017	Numbers and Quantities
+J018	Numbers and Quantities
+J019	Numbers and Quantities
+J020	Numbers and Quantities
+J021	Numbers and Quantities
+J022	Numbers and Quantities
+J023	Numbers and Quantities
+J024	Numbers and Quantities
+J025	Numbers and Quantities
+J026	Numbers and Quantities
+J027	Numbers and Quantities
+J028	Numbers and Quantities
+J029	Numbers and Quantities
+J030	Mathematics
+J031	Mathematics
+J032	Mathematics
+J033	Mathematics
+J034	Mathematics
+J035	Mathematics
+J036	Mathematics
+J037	Mathematics
+J038	Mathematics
+J039	Mathematics
+J040	Mathematics
+J041	Mathematics
+J042	Mathematics
+J043	Mathematics
+J044	Mathematics
+J045	Mathematics
+J046	Mathematics
+J047	Mathematics
+J048	Mathematics
+J049	Mathematics
+J050	Mathematics
+J051	Mathematics
+J052	Mathematics
+J053	Mathematics
+J054	Mathematics
+J055	Mathematics
+J056	Mathematics
+J057	Mathematics
+J058	Mathematics
+J059	Mathematics
+J060	Measurement
+J061	Measurement
+J062	Measurement
+J063	Measurement
+J064	Measurement
+J065	Measurement
+J066	Measurement
+J067	Measurement
+J068	Measurement
+J069	Measurement
+J070	Measurement
+J071	Measurement
+J072	Measurement
+J073	Measurement
+J074	Measurement
+J075	Measurement
+J076	Measurement
+J077	Measurement
+J078	Measurement
+J079	Measurement
+J080	Money
+J081	Money
+J082	Money
+J083	Money
+J084	Money
+J085	Money
+J086	Money
+J087	Money
+J088	Money
+J089	Money
+J090	Money
+J091	Money
+J092	Money
+J093	Money
+J094	Money
+J095	Money
+J096	Money
+J097	Money
+J098	Money
+J099	Money
+J100	Banking, Wealth, and Investment
+J101	Banking, Wealth, and Investment
+J102	Banking, Wealth, and Investment
+J103	Banking, Wealth, and Investment
+J104	Banking, Wealth, and Investment
+J105	Banking, Wealth, and Investment
+J106	Banking, Wealth, and Investment
+J107	Banking, Wealth, and Investment
+J108	Banking, Wealth, and Investment
+J109	Banking, Wealth, and Investment
+J110	Banking, Wealth, and Investment
+J111	Banking, Wealth, and Investment
+J112	Banking, Wealth, and Investment
+J113	Banking, Wealth, and Investment
+J114	Banking, Wealth, and Investment
+J115	Banking, Wealth, and Investment
+J116	Banking, Wealth, and Investment
+J117	Banking, Wealth, and Investment
+J118	Banking, Wealth, and Investment
+J119	Banking, Wealth, and Investment
+J120	Banking, Wealth, and Investment
+J121	Banking, Wealth, and Investment
+J122	Banking, Wealth, and Investment
+J123	Banking, Wealth, and Investment
+J124	Banking, Wealth, and Investment
+J125	Banking, Wealth, and Investment
+J126	Banking, Wealth, and Investment
+J127	Banking, Wealth, and Investment
+J128	Banking, Wealth, and Investment
+J129	Banking, Wealth, and Investment
+J130	Commerce
+J131	Commerce
+J132	Commerce
+J133	Commerce
+J134	Commerce
+J135	Commerce
+J136	Commerce
+J137	Commerce
+J138	Commerce
+J139	Commerce
+J140	Commerce
+J141	Commerce
+J142	Commerce
+J143	Commerce
+J144	Commerce
+J145	Commerce
+J146	Commerce
+J147	Commerce
+J148	Commerce
+J149	Commerce
+J150	Commerce
+J151	Commerce
+J152	Commerce
+J153	Commerce
+J154	Commerce
+J155	Commerce
+J156	Commerce
+J157	Commerce
+J158	Commerce
+J159	Commerce
+J160	Commerce
+J161	Commerce
+J162	Commerce
+J163	Commerce
+J164	Commerce
+J165	Commerce
+J166	Commerce
+J167	Commerce
+J168	Commerce
+J169	Commerce
+J170	Commerce
+J171	Commerce
+J172	Commerce
+J173	Commerce
+J174	Commerce
+J175	Commerce
+J176	Commerce
+J177	Commerce
+J178	Commerce
+J179	Commerce
+J180	Shopping and General Expenses
+J181	Shopping and General Expenses
+J182	Shopping and General Expenses
+J183	Shopping and General Expenses
+J184	Shopping and General Expenses
+J185	Shopping and General Expenses
+J186	Shopping and General Expenses
+J187	Shopping and General Expenses
+J188	Shopping and General Expenses
+J189	Shopping and General Expenses
+J190	Shopping and General Expenses
+J191	Shopping and General Expenses
+J192	Shopping and General Expenses
+J193	Shopping and General Expenses
+J194	Shopping and General Expenses
+J195	Shopping and General Expenses
+J196	Shopping and General Expenses
+J197	Shopping and General Expenses
+J198	Shopping and General Expenses
+J199	Shopping and General Expenses
+J200	Shopping and General Expenses
+J201	Shopping and General Expenses
+J202	Shopping and General Expenses
+J203	Shopping and General Expenses
+J204	Shopping and General Expenses
+J205	Shopping and General Expenses
+J206	Shopping and General Expenses
+J207	Shopping and General Expenses
+J208	Shopping and General Expenses
+J209	Shopping and General Expenses
+J210	Business, Work, and Employment
+K001	Entertainment Generally
+K002	Entertainment Generally
+K003	Entertainment Generally
+K004	Entertainment Generally
+K005	Entertainment Generally
+K006	Entertainment Generally
+K007	Entertainment Generally
+K008	Entertainment Generally
+K009	Entertainment Generally
+K010	Entertainment Generally
+K011	Entertainment Generally
+K012	Entertainment Generally
+K013	Entertainment Generally
+K014	Entertainment Generally
+K015	Entertainment Generally
+K016	Entertainment Generally
+K017	Entertainment Generally
+K018	Entertainment Generally
+K019	Entertainment Generally
+K020	Music and Related Activities
+K021	Music and Related Activities
+K022	Music and Related Activities
+K023	Music and Related Activities
+K024	Music and Related Activities
+K025	Music and Related Activities
+K026	Music and Related Activities
+K027	Music and Related Activities
+K028	Music and Related Activities
+K029	Music and Related Activities
+K030	Music and Related Activities
+K031	Music and Related Activities
+K032	Music and Related Activities
+K033	Music and Related Activities
+K034	Music and Related Activities
+K035	Music and Related Activities
+K036	Music and Related Activities
+K037	Music and Related Activities
+K038	Music and Related Activities
+K039	Music and Related Activities
+K040	Music and Related Activities
+K041	Music and Related Activities
+K042	Music and Related Activities
+K043	Music and Related Activities
+K044	Music and Related Activities
+K045	Music and Related Activities
+K046	Music and Related Activities
+K047	Music and Related Activities
+K048	Music and Related Activities
+K049	Music and Related Activities
+K050	Recording Sound, Listening to the Radio, etc
+K051	Recording Sound, Listening to the Radio, etc
+K052	Recording Sound, Listening to the Radio, etc
+K053	Recording Sound, Listening to the Radio, etc
+K054	Recording Sound, Listening to the Radio, etc
+K055	Recording Sound, Listening to the Radio, etc
+K056	Recording Sound, Listening to the Radio, etc
+K057	Recording Sound, Listening to the Radio, etc
+K058	Recording Sound, Listening to the Radio, etc
+K059	Recording Sound, Listening to the Radio, etc
+K060	Recording Sound, Listening to the Radio, etc
+K061	Recording Sound, Listening to the Radio, etc
+K062	Recording Sound, Listening to the Radio, etc
+K063	Recording Sound, Listening to the Radio, etc
+K064	Recording Sound, Listening to the Radio, etc
+K065	Recording Sound, Listening to the Radio, etc
+K066	Recording Sound, Listening to the Radio, etc
+K067	Recording Sound, Listening to the Radio, etc
+K068	Recording Sound, Listening to the Radio, etc
+K069	Recording Sound, Listening to the Radio, etc
+K070	Drama, the Theatre, and Show Business
+K071	Drama, the Theatre, and Show Business
+K072	Drama, the Theatre, and Show Business
+K073	Drama, the Theatre, and Show Business
+K074	Drama, the Theatre, and Show Business
+K075	Drama, the Theatre, and Show Business
+K076	Drama, the Theatre, and Show Business
+K077	Drama, the Theatre, and Show Business
+K078	Drama, the Theatre, and Show Business
+K079	Drama, the Theatre, and Show Business
+K080	Drama, the Theatre, and Show Business
+K081	Drama, the Theatre, and Show Business
+K082	Drama, the Theatre, and Show Business
+K083	Drama, the Theatre, and Show Business
+K084	Drama, the Theatre, and Show Business
+K085	Drama, the Theatre, and Show Business
+K086	Drama, the Theatre, and Show Business
+K087	Drama, the Theatre, and Show Business
+K088	Drama, the Theatre, and Show Business
+K089	Drama, the Theatre, and Show Business
+K090	Drama, the Theatre, and Show Business
+K091	Drama, the Theatre, and Show Business
+K092	Drama, the Theatre, and Show Business
+K093	Drama, the Theatre, and Show Business
+K094	Drama, the Theatre, and Show Business
+K095	Drama, the Theatre, and Show Business
+K096	Drama, the Theatre, and Show Business
+K097	Drama, the Theatre, and Show Business
+K098	Drama, the Theatre, and Show Business
+K099	Drama, the Theatre, and Show Business
+K100	Sports and Games Generally
+K101	Sports and Games Generally
+K102	Sports and Games Generally
+K103	Sports and Games Generally
+K104	Sports and Games Generally
+K105	Sports and Games Generally
+K106	Sports and Games Generally
+K107	Sports and Games Generally
+K108	Sports and Games Generally
+K109	Sports and Games Generally
+K110	Sports and Games Generally
+K111	Sports and Games Generally
+K112	Sports and Games Generally
+K113	Sports and Games Generally
+K114	Sports and Games Generally
+K115	Sports and Games Generally
+K116	Sports and Games Generally
+K117	Sports and Games Generally
+K118	Sports and Games Generally
+K119	Sports and Games Generally
+K120	Sports and Games Generally
+K121	Sports and Games Generally
+K122	Sports and Games Generally
+K123	Sports and Games Generally
+K124	Sports and Games Generally
+K125	Sports and Games Generally
+K126	Sports and Games Generally
+K127	Sports and Games Generally
+K128	Sports and Games Generally
+K129	Sports and Games Generally
+K130	Indoor Games
+K131	Indoor Games
+K132	Indoor Games
+K133	Indoor Games
+K134	Indoor Games
+K135	Indoor Games
+K136	Indoor Games
+K137	Indoor Games
+K138	Indoor Games
+K139	Indoor Games
+K140	Indoor Games
+K141	Indoor Games
+K142	Indoor Games
+K143	Indoor Games
+K144	Indoor Games
+K145	Indoor Games
+K146	Indoor Games
+K147	Indoor Games
+K148	Indoor Games
+K149	Indoor Games
+K150	Indoor Games
+K151	Indoor Games
+K152	Indoor Games
+K153	Indoor Games
+K154	Indoor Games
+K155	Indoor Games
+K156	Indoor Games
+K157	Indoor Games
+K158	Indoor Games
+K159	Indoor Games
+K160	Indoor Games
+K161	Indoor Games
+K162	Indoor Games
+K163	Indoor Games
+K164	Indoor Games
+K165	Indoor Games
+K166	Indoor Games
+K167	Indoor Games
+K168	Indoor Games
+K169	Indoor Games
+K170	Indoor Games
+K171	Indoor Games
+K172	Indoor Games
+K173	Indoor Games
+K174	Indoor Games
+K175	Indoor Games
+K176	Indoor Games
+K177	Indoor Games
+K178	Indoor Games
+K179	Indoor Games
+K180	Indoor Games
+K181	Indoor Games
+K182	Indoor Games
+K183	Indoor Games
+K184	Indoor Games
+K185	Indoor Games
+K186	Indoor Games
+K187	Indoor Games
+K188	Indoor Games
+K189	Indoor Games
+K190	outdoor Games
+K170	Children's Games and Toys
+L001	The Universe
+L002	The Universe
+L003	The Universe
+L004	The Universe
+L005	The Universe
+L006	The Universe
+L007	The Universe
+L008	The Universe
+L009	The Universe
+L010	The Universe
+L011	The Universe
+L012	The Universe
+L013	The Universe
+L014	The Universe
+L015	The Universe
+L016	The Universe
+L017	The Universe
+L018	The Universe
+L019	The Universe
+L020	Light and Color
+L021	Light and Color
+L022	Light and Color
+L023	Light and Color
+L024	Light and Color
+L025	Light and Color
+L026	Light and Color
+L027	Light and Color
+L028	Light and Color
+L029	Light and Color
+L030	Light and Color
+L031	Light and Color
+L032	Light and Color
+L033	Light and Color
+L034	Light and Color
+L035	Light and Color
+L036	Light and Color
+L037	Light and Color
+L038	Light and Color
+L039	Light and Color
+L040	Weather and Temperature
+L041	Weather and Temperature
+L042	Weather and Temperature
+L043	Weather and Temperature
+L044	Weather and Temperature
+L045	Weather and Temperature
+L046	Weather and Temperature
+L047	Weather and Temperature
+L048	Weather and Temperature
+L049	Weather and Temperature
+L050	Weather and Temperature
+L051	Weather and Temperature
+L052	Weather and Temperature
+L053	Weather and Temperature
+L054	Weather and Temperature
+L055	Weather and Temperature
+L056	Weather and Temperature
+L057	Weather and Temperature
+L058	Weather and Temperature
+L059	Weather and Temperature
+L060	Weather and Temperature
+L061	Weather and Temperature
+L062	Weather and Temperature
+L063	Weather and Temperature
+L064	Weather and Temperature
+L065	Weather and Temperature
+L066	Weather and Temperature
+L067	Weather and Temperature
+L068	Weather and Temperature
+L069	Weather and Temperature
+L070	Weather and Temperature
+L071	Weather and Temperature
+L072	Weather and Temperature
+L073	Weather and Temperature
+L074	Weather and Temperature
+L075	Weather and Temperature
+L076	Weather and Temperature
+L077	Weather and Temperature
+L078	Weather and Temperature
+L079	Weather and Temperature
+L080	Geography
+L081	Geography
+L082	Geography
+L083	Geography
+L084	Geography
+L085	Geography
+L086	Geography
+L087	Geography
+L088	Geography
+L089	Geography
+L090	Geography
+L091	Geography
+L092	Geography
+L093	Geography
+L094	Geography
+L095	Geography
+L096	Geography
+L097	Geography
+L098	Geography
+L099	Geography
+L100	Geography
+L101	Geography
+L102	Geography
+L103	Geography
+L104	Geography
+L105	Geography
+L106	Geography
+L107	Geography
+L108	Geography
+L109	Geography
+L110	Geography
+L111	Geography
+L112	Geography
+L113	Geography
+L114	Geography
+L115	Geography
+L116	Geography
+L117	Geography
+L118	Geography
+L119	Geography
+L120	Geography
+L121	Geography
+L122	Geography
+L123	Geography
+L124	Geography
+L125	Geography
+L126	Geography
+L127	Geography
+L128	Geography
+L129	Geography
+L130	Time Generally
+L131	Time Generally
+L132	Time Generally
+L133	Time Generally
+L134	Time Generally
+L135	Time Generally
+L136	Time Generally
+L137	Time Generally
+L138	Time Generally
+L139	Time Generally
+L140	Time Generally
+L141	Time Generally
+L142	Time Generally
+L143	Time Generally
+L144	Time Generally
+L145	Time Generally
+L146	Time Generally
+L147	Time Generally
+L148	Time Generally
+L149	Time Generally
+L150	Time Generally
+L151	Time Generally
+L152	Time Generally
+L153	Time Generally
+L154	Time Generally
+L155	Time Generally
+L156	Time Generally
+L157	Time Generally
+L158	Time Generally
+L159	Time Generally
+L160	Time Generally
+L161	Time Generally
+L162	Time Generally
+L163	Time Generally
+L164	Time Generally
+L165	Time Generally
+L166	Time Generally
+L167	Time Generally
+L168	Time Generally
+L169	Time Generally
+L170	Beginning and Ending
+L171	Beginning and Ending
+L172	Beginning and Ending
+L173	Beginning and Ending
+L174	Beginning and Ending
+L175	Beginning and Ending
+L176	Beginning and Ending
+L177	Beginning and Ending
+L178	Beginning and Ending
+L179	Beginning and Ending
+L180	Beginning and Ending
+L181	Beginning and Ending
+L182	Beginning and Ending
+L183	Beginning and Ending
+L184	Beginning and Ending
+L185	Beginning and Ending
+L186	Beginning and Ending
+L187	Beginning and Ending
+L188	Beginning and Ending
+L189	Beginning and Ending
+L190	Beginning and Ending
+L191	Beginning and Ending
+L192	Beginning and Ending
+L193	Beginning and Ending
+L194	Beginning and Ending
+L195	Beginning and Ending
+L196	Beginning and Ending
+L197	Beginning and Ending
+L198	Beginning and Ending
+L199	Beginning and Ending
+L200	Old, New, and Young
+L201	Old, New, and Young
+L202	Old, New, and Young
+L203	Old, New, and Young
+L204	Old, New, and Young
+L205	Old, New, and Young
+L206	Old, New, and Young
+L207	Old, New, and Young
+L208	Old, New, and Young
+L209	Old, New, and Young
+L210	Old, New, and Young
+L211	Old, New, and Young
+L212	Old, New, and Young
+L213	Old, New, and Young
+L214	Old, New, and Young
+L215	Old, New, and Young
+L216	Old, New, and Young
+L217	Old, New, and Young
+L218	Old, New, and Young
+L219	Old, New, and Young
+L220	Periods of Time and their Measurement
+L221	Periods of Time and their Measurement
+L222	Periods of Time and their Measurement
+L223	Periods of Time and their Measurement
+L224	Periods of Time and their Measurement
+L225	Periods of Time and their Measurement
+L226	Periods of Time and their Measurement
+L227	Periods of Time and their Measurement
+L228	Periods of Time and their Measurement
+L229	Periods of Time and their Measurement
+L230	Periods of Time and their Measurement
+L231	Periods of Time and their Measurement
+L232	Periods of Time and their Measurement
+L233	Periods of Time and their Measurement
+L234	Periods of Time and their Measurement
+L235	Periods of Time and their Measurement
+L236	Periods of Time and their Measurement
+L237	Periods of Time and their Measurement
+L238	Periods of Time and their Measurement
+L239	Periods of Time and their Measurement
+L240	Periods of Time and their Measurement
+L241	Periods of Time and their Measurement
+L242	Periods of Time and their Measurement
+L243	Periods of Time and their Measurement
+L244	Periods of Time and their Measurement
+L245	Periods of Time and their Measurement
+L246	Periods of Time and their Measurement
+L247	Periods of Time and their Measurement
+L248	Periods of Time and their Measurement
+L249	Periods of Time and their Measurement
+L250	Grammatical Words & Phrases Relating to Time
+M001	Moving, Coming, and going
+M002	Moving, Coming, and going
+M003	Moving, Coming, and going
+M004	Moving, Coming, and going
+M005	Moving, Coming, and going
+M006	Moving, Coming, and going
+M007	Moving, Coming, and going
+M008	Moving, Coming, and going
+M009	Moving, Coming, and going
+M010	Moving, Coming, and going
+M011	Moving, Coming, and going
+M012	Moving, Coming, and going
+M013	Moving, Coming, and going
+M014	Moving, Coming, and going
+M015	Moving, Coming, and going
+M016	Moving, Coming, and going
+M017	Moving, Coming, and going
+M018	Moving, Coming, and going
+M019	Moving, Coming, and going
+M020	Moving, Coming, and going
+M021	Moving, Coming, and going
+M022	Moving, Coming, and going
+M023	Moving, Coming, and going
+M024	Moving, Coming, and going
+M025	Moving, Coming, and going
+M026	Moving, Coming, and going
+M027	Moving, Coming, and going
+M028	Moving, Coming, and going
+M029	Moving, Coming, and going
+M030	Moving, Coming, and going
+M031	Moving, Coming, and going
+M032	Moving, Coming, and going
+M033	Moving, Coming, and going
+M034	Moving, Coming, and going
+M035	Moving, Coming, and going
+M036	Moving, Coming, and going
+M037	Moving, Coming, and going
+M038	Moving, Coming, and going
+M039	Moving, Coming, and going
+M040	Moving, Coming, and going
+M041	Moving, Coming, and going
+M042	Moving, Coming, and going
+M043	Moving, Coming, and going
+M044	Moving, Coming, and going
+M045	Moving, Coming, and going
+M046	Moving, Coming, and going
+M047	Moving, Coming, and going
+M048	Moving, Coming, and going
+M049	Moving, Coming, and going
+M050	Putting and Taking, Pulling and Pushing
+M051	Putting and Taking, Pulling and Pushing
+M052	Putting and Taking, Pulling and Pushing
+M053	Putting and Taking, Pulling and Pushing
+M054	Putting and Taking, Pulling and Pushing
+M055	Putting and Taking, Pulling and Pushing
+M056	Putting and Taking, Pulling and Pushing
+M057	Putting and Taking, Pulling and Pushing
+M058	Putting and Taking, Pulling and Pushing
+M059	Putting and Taking, Pulling and Pushing
+M060	Putting and Taking, Pulling and Pushing
+M061	Putting and Taking, Pulling and Pushing
+M062	Putting and Taking, Pulling and Pushing
+M063	Putting and Taking, Pulling and Pushing
+M064	Putting and Taking, Pulling and Pushing
+M065	Putting and Taking, Pulling and Pushing
+M066	Putting and Taking, Pulling and Pushing
+M067	Putting and Taking, Pulling and Pushing
+M068	Putting and Taking, Pulling and Pushing
+M069	Putting and Taking, Pulling and Pushing
+M070	Travel and Visiting
+M071	Travel and Visiting
+M072	Travel and Visiting
+M073	Travel and Visiting
+M074	Travel and Visiting
+M075	Travel and Visiting
+M076	Travel and Visiting
+M077	Travel and Visiting
+M078	Travel and Visiting
+M079	Travel and Visiting
+M080	Travel and Visiting
+M081	Travel and Visiting
+M082	Travel and Visiting
+M083	Travel and Visiting
+M084	Travel and Visiting
+M085	Travel and Visiting
+M086	Travel and Visiting
+M087	Travel and Visiting
+M088	Travel and Visiting
+M089	Travel and Visiting
+M090	Vehicles and Transport on Land
+M091	Vehicles and Transport on Land
+M092	Vehicles and Transport on Land
+M093	Vehicles and Transport on Land
+M094	Vehicles and Transport on Land
+M095	Vehicles and Transport on Land
+M096	Vehicles and Transport on Land
+M097	Vehicles and Transport on Land
+M098	Vehicles and Transport on Land
+M099	Vehicles and Transport on Land
+M100	Vehicles and Transport on Land
+M101	Vehicles and Transport on Land
+M102	Vehicles and Transport on Land
+M103	Vehicles and Transport on Land
+M104	Vehicles and Transport on Land
+M105	Vehicles and Transport on Land
+M106	Vehicles and Transport on Land
+M107	Vehicles and Transport on Land
+M108	Vehicles and Transport on Land
+M109	Vehicles and Transport on Land
+M110	Vehicles and Transport on Land
+M111	Vehicles and Transport on Land
+M112	Vehicles and Transport on Land
+M113	Vehicles and Transport on Land
+M114	Vehicles and Transport on Land
+M115	Vehicles and Transport on Land
+M116	Vehicles and Transport on Land
+M117	Vehicles and Transport on Land
+M118	Vehicles and Transport on Land
+M119	Vehicles and Transport on Land
+M120	Places
+M121	Places
+M122	Places
+M123	Places
+M124	Places
+M125	Places
+M126	Places
+M127	Places
+M128	Places
+M129	Places
+M130	Places
+M131	Places
+M132	Places
+M133	Places
+M134	Places
+M135	Places
+M136	Places
+M137	Places
+M138	Places
+M139	Places
+M140	Places
+M141	Places
+M142	Places
+M143	Places
+M144	Places
+M145	Places
+M146	Places
+M147	Places
+M148	Places
+M149	Places
+M150	Shipping
+M151	Shipping
+M152	Shipping
+M153	Shipping
+M154	Shipping
+M155	Shipping
+M156	Shipping
+M157	Shipping
+M158	Shipping
+M159	Shipping
+M160	Shipping
+M161	Shipping
+M162	Shipping
+M163	Shipping
+M164	Shipping
+M165	Shipping
+M166	Shipping
+M167	Shipping
+M168	Shipping
+M169	Shipping
+M170	Shipping
+M171	Shipping
+M172	Shipping
+M173	Shipping
+M174	Shipping
+M175	Shipping
+M176	Shipping
+M177	Shipping
+M178	Shipping
+M179	Shipping
+M180	Aircraft
+M181	Aircraft
+M182	Aircraft
+M183	Aircraft
+M184	Aircraft
+M185	Aircraft
+M186	Aircraft
+M187	Aircraft
+M188	Aircraft
+M189	Aircraft
+M190	Aircraft
+M191	Aircraft
+M192	Aircraft
+M193	Aircraft
+M194	Aircraft
+M195	Aircraft
+M196	Aircraft
+M197	Aircraft
+M198	Aircraft
+M199	Aircraft
+M200	Location and Direction
+N001	Being, Becoming, and Happening
+N002	Being, Becoming, and Happening
+N003	Being, Becoming, and Happening
+N004	Being, Becoming, and Happening
+N005	Being, Becoming, and Happening
+N006	Being, Becoming, and Happening
+N007	Being, Becoming, and Happening
+N008	Being, Becoming, and Happening
+N009	Being, Becoming, and Happening
+N010	Being, Becoming, and Happening
+N011	Being, Becoming, and Happening
+N012	Being, Becoming, and Happening
+N013	Being, Becoming, and Happening
+N014	Being, Becoming, and Happening
+N015	Being, Becoming, and Happening
+N016	Being, Becoming, and Happening
+N017	Being, Becoming, and Happening
+N018	Being, Becoming, and Happening
+N019	Being, Becoming, and Happening
+N020	Being, Becoming, and Happening
+N021	Being, Becoming, and Happening
+N022	Being, Becoming, and Happening
+N023	Being, Becoming, and Happening
+N024	Being, Becoming, and Happening
+N025	Being, Becoming, and Happening
+N026	Being, Becoming, and Happening
+N027	Being, Becoming, and Happening
+N028	Being, Becoming, and Happening
+N029	Being, Becoming, and Happening
+N030	Possibility, Chance, and Necessity
+N031	Possibility, Chance, and Necessity
+N032	Possibility, Chance, and Necessity
+N033	Possibility, Chance, and Necessity
+N034	Possibility, Chance, and Necessity
+N035	Possibility, Chance, and Necessity
+N036	Possibility, Chance, and Necessity
+N037	Possibility, Chance, and Necessity
+N038	Possibility, Chance, and Necessity
+N039	Possibility, Chance, and Necessity
+N040	Possibility, Chance, and Necessity
+N041	Possibility, Chance, and Necessity
+N042	Possibility, Chance, and Necessity
+N043	Possibility, Chance, and Necessity
+N044	Possibility, Chance, and Necessity
+N045	Possibility, Chance, and Necessity
+N046	Possibility, Chance, and Necessity
+N047	Possibility, Chance, and Necessity
+N048	Possibility, Chance, and Necessity
+N049	Possibility, Chance, and Necessity
+N050	General, Usual, Unusual, etc
+N051	General, Usual, Unusual, etc
+N052	General, Usual, Unusual, etc
+N053	General, Usual, Unusual, etc
+N054	General, Usual, Unusual, etc
+N055	General, Usual, Unusual, etc
+N056	General, Usual, Unusual, etc
+N057	General, Usual, Unusual, etc
+N058	General, Usual, Unusual, etc
+N059	General, Usual, Unusual, etc
+N060	General, Usual, Unusual, etc
+N061	General, Usual, Unusual, etc
+N062	General, Usual, Unusual, etc
+N063	General, Usual, Unusual, etc
+N064	General, Usual, Unusual, etc
+N065	General, Usual, Unusual, etc
+N066	General, Usual, Unusual, etc
+N067	General, Usual, Unusual, etc
+N068	General, Usual, Unusual, etc
+N069	General, Usual, Unusual, etc
+N070	General, Usual, Unusual, etc
+N071	General, Usual, Unusual, etc
+N072	General, Usual, Unusual, etc
+N073	General, Usual, Unusual, etc
+N074	General, Usual, Unusual, etc
+N075	General, Usual, Unusual, etc
+N076	General, Usual, Unusual, etc
+N077	General, Usual, Unusual, etc
+N078	General, Usual, Unusual, etc
+N079	General, Usual, Unusual, etc
+N080	Size, Importance, and Availability
+N081	Size, Importance, and Availability
+N082	Size, Importance, and Availability
+N083	Size, Importance, and Availability
+N084	Size, Importance, and Availability
+N085	Size, Importance, and Availability
+N086	Size, Importance, and Availability
+N087	Size, Importance, and Availability
+N088	Size, Importance, and Availability
+N089	Size, Importance, and Availability
+N090	Size, Importance, and Availability
+N091	Size, Importance, and Availability
+N092	Size, Importance, and Availability
+N093	Size, Importance, and Availability
+N094	Size, Importance, and Availability
+N095	Size, Importance, and Availability
+N096	Size, Importance, and Availability
+N097	Size, Importance, and Availability
+N098	Size, Importance, and Availability
+N099	Size, Importance, and Availability
+N100	Size, Importance, and Availability
+N101	Size, Importance, and Availability
+N102	Size, Importance, and Availability
+N103	Size, Importance, and Availability
+N104	Size, Importance, and Availability
+N105	Size, Importance, and Availability
+N106	Size, Importance, and Availability
+N107	Size, Importance, and Availability
+N108	Size, Importance, and Availability
+N109	Size, Importance, and Availability
+N110	Size, Importance, and Availability
+N111	Size, Importance, and Availability
+N112	Size, Importance, and Availability
+N113	Size, Importance, and Availability
+N114	Size, Importance, and Availability
+N115	Size, Importance, and Availability
+N116	Size, Importance, and Availability
+N117	Size, Importance, and Availability
+N118	Size, Importance, and Availability
+N119	Size, Importance, and Availability
+N120	Doing Things
+N121	Doing Things
+N122	Doing Things
+N123	Doing Things
+N124	Doing Things
+N125	Doing Things
+N126	Doing Things
+N127	Doing Things
+N128	Doing Things
+N129	Doing Things
+N130	Doing Things
+N131	Doing Things
+N132	Doing Things
+N133	Doing Things
+N134	Doing Things
+N135	Doing Things
+N136	Doing Things
+N137	Doing Things
+N138	Doing Things
+N139	Doing Things
+N140	Doing Things
+N141	Doing Things
+N142	Doing Things
+N143	Doing Things
+N144	Doing Things
+N145	Doing Things
+N146	Doing Things
+N147	Doing Things
+N148	Doing Things
+N149	Doing Things
+N150	Causing
+N151	Causing
+N152	Causing
+N153	Causing
+N154	Causing
+N155	Causing
+N156	Causing
+N157	Causing
+N158	Causing
+N159	Causing
+N160	Causing
+N161	Causing
+N162	Causing
+N163	Causing
+N164	Causing
+N165	Causing
+N166	Causing
+N167	Causing
+N168	Causing
+N169	Causing
+N170	Causing
+N171	Causing
+N172	Causing
+N173	Causing
+N174	Causing
+N175	Causing
+N176	Causing
+N177	Causing
+N178	Causing
+N179	Causing
+N180	Resemblance, Difference, and Change
+N181	Resemblance, Difference, and Change
+N182	Resemblance, Difference, and Change
+N183	Resemblance, Difference, and Change
+N184	Resemblance, Difference, and Change
+N185	Resemblance, Difference, and Change
+N186	Resemblance, Difference, and Change
+N187	Resemblance, Difference, and Change
+N188	Resemblance, Difference, and Change
+N189	Resemblance, Difference, and Change
+N190	Resemblance, Difference, and Change
+N191	Resemblance, Difference, and Change
+N192	Resemblance, Difference, and Change
+N193	Resemblance, Difference, and Change
+N194	Resemblance, Difference, and Change
+N195	Resemblance, Difference, and Change
+N196	Resemblance, Difference, and Change
+N197	Resemblance, Difference, and Change
+N198	Resemblance, Difference, and Change
+N199	Resemblance, Difference, and Change
+N200	Resemblance, Difference, and Change
+N201	Resemblance, Difference, and Change
+N202	Resemblance, Difference, and Change
+N203	Resemblance, Difference, and Change
+N204	Resemblance, Difference, and Change
+N205	Resemblance, Difference, and Change
+N206	Resemblance, Difference, and Change
+N207	Resemblance, Difference, and Change
+N208	Resemblance, Difference, and Change
+N209	Resemblance, Difference, and Change
+N210	Rightness, Fairness, Purpose, Use, & Strength
+N211	Rightness, Fairness, Purpose, Use, & Strength
+N212	Rightness, Fairness, Purpose, Use, & Strength
+N213	Rightness, Fairness, Purpose, Use, & Strength
+N214	Rightness, Fairness, Purpose, Use, & Strength
+N215	Rightness, Fairness, Purpose, Use, & Strength
+N216	Rightness, Fairness, Purpose, Use, & Strength
+N217	Rightness, Fairness, Purpose, Use, & Strength
+N218	Rightness, Fairness, Purpose, Use, & Strength
+N219	Rightness, Fairness, Purpose, Use, & Strength
+N220	Rightness, Fairness, Purpose, Use, & Strength
+N221	Rightness, Fairness, Purpose, Use, & Strength
+N222	Rightness, Fairness, Purpose, Use, & Strength
+N223	Rightness, Fairness, Purpose, Use, & Strength
+N224	Rightness, Fairness, Purpose, Use, & Strength
+N225	Rightness, Fairness, Purpose, Use, & Strength
+N226	Rightness, Fairness, Purpose, Use, & Strength
+N227	Rightness, Fairness, Purpose, Use, & Strength
+N228	Rightness, Fairness, Purpose, Use, & Strength
+N229	Rightness, Fairness, Purpose, Use, & Strength
+N230	Rightness, Fairness, Purpose, Use, & Strength
+N231	Rightness, Fairness, Purpose, Use, & Strength
+N232	Rightness, Fairness, Purpose, Use, & Strength
+N233	Rightness, Fairness, Purpose, Use, & Strength
+N234	Rightness, Fairness, Purpose, Use, & Strength
+N235	Rightness, Fairness, Purpose, Use, & Strength
+N236	Rightness, Fairness, Purpose, Use, & Strength
+N237	Rightness, Fairness, Purpose, Use, & Strength
+N238	Rightness, Fairness, Purpose, Use, & Strength
+N239	Rightness, Fairness, Purpose, Use, & Strength
+N240	Rightness, Fairness, Purpose, Use, & Strength
+N241	Rightness, Fairness, Purpose, Use, & Strength
+N242	Rightness, Fairness, Purpose, Use, & Strength
+N243	Rightness, Fairness, Purpose, Use, & Strength
+N244	Rightness, Fairness, Purpose, Use, & Strength
+N245	Rightness, Fairness, Purpose, Use, & Strength
+N246	Rightness, Fairness, Purpose, Use, & Strength
+N247	Rightness, Fairness, Purpose, Use, & Strength
+N248	Rightness, Fairness, Purpose, Use, & Strength
+N249	Rightness, Fairness, Purpose, Use, & Strength
+N250	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N251	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N252	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N253	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N254	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N255	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N256	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N257	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N258	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N259	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N260	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N261	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N262	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N263	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N264	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N265	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N266	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N267	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N268	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N269	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N270	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N271	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N272	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N273	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N274	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N275	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N276	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N277	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N278	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N279	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N280	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N281	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N282	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N283	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N284	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N285	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N286	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N287	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N288	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N289	Fullness, Heaviness, Thickness, Stiffness, Roughness, etc
+N290	Actions and Positions
+N291	Actions and Positions
+N292	Actions and Positions
+N293	Actions and Positions
+N294	Actions and Positions
+N295	Actions and Positions
+N296	Actions and Positions
+N297	Actions and Positions
+N298	Actions and Positions
+N299	Actions and Positions
+N300	Actions and Positions
+N301	Actions and Positions
+N302	Actions and Positions
+N303	Actions and Positions
+N304	Actions and Positions
+N305	Actions and Positions
+N306	Actions and Positions
+N307	Actions and Positions
+N308	Actions and Positions
+N309	Actions and Positions
+N310	Actions and Positions
+N311	Actions and Positions
+N312	Actions and Positions
+N313	Actions and Positions
+N314	Actions and Positions
+N315	Actions and Positions
+N316	Actions and Positions
+N317	Actions and Positions
+N318	Actions and Positions
+N319	Actions and Positions
+N320	Cutting, Joining, Breaking, and Destroying
+N321	Cutting, Joining, Breaking, and Destroying
+N322	Cutting, Joining, Breaking, and Destroying
+N323	Cutting, Joining, Breaking, and Destroying
+N324	Cutting, Joining, Breaking, and Destroying
+N325	Cutting, Joining, Breaking, and Destroying
+N326	Cutting, Joining, Breaking, and Destroying
+N327	Cutting, Joining, Breaking, and Destroying
+N328	Cutting, Joining, Breaking, and Destroying
+N329	Cutting, Joining, Breaking, and Destroying
+N330	Cutting, Joining, Breaking, and Destroying
+N331	Cutting, Joining, Breaking, and Destroying
+N332	Cutting, Joining, Breaking, and Destroying
+N333	Cutting, Joining, Breaking, and Destroying
+N334	Cutting, Joining, Breaking, and Destroying
+N335	Cutting, Joining, Breaking, and Destroying
+N336	Cutting, Joining, Breaking, and Destroying
+N337	Cutting, Joining, Breaking, and Destroying
+N338	Cutting, Joining, Breaking, and Destroying
+N339	Cutting, Joining, Breaking, and Destroying
+N340	Cutting, Joining, Breaking, and Destroying
+N341	Cutting, Joining, Breaking, and Destroying
+N342	Cutting, Joining, Breaking, and Destroying
+N343	Cutting, Joining, Breaking, and Destroying
+N344	Cutting, Joining, Breaking, and Destroying
+N345	Cutting, Joining, Breaking, and Destroying
+N346	Cutting, Joining, Breaking, and Destroying
+N347	Cutting, Joining, Breaking, and Destroying
+N348	Cutting, Joining, Breaking, and Destroying
+N349	Cutting, Joining, Breaking, and Destroying
+N350	Showing, Hiding, Finding, Saving, and Similar Words
+N351	Showing, Hiding, Finding, Saving, and Similar Words
+N352	Showing, Hiding, Finding, Saving, and Similar Words
+N353	Showing, Hiding, Finding, Saving, and Similar Words
+N354	Showing, Hiding, Finding, Saving, and Similar Words
+N355	Showing, Hiding, Finding, Saving, and Similar Words
+N356	Showing, Hiding, Finding, Saving, and Similar Words
+N357	Showing, Hiding, Finding, Saving, and Similar Words
+N358	Showing, Hiding, Finding, Saving, and Similar Words
+N359	Showing, Hiding, Finding, Saving, and Similar Words
+N360	Showing, Hiding, Finding, Saving, and Similar Words
+N361	Showing, Hiding, Finding, Saving, and Similar Words
+N362	Showing, Hiding, Finding, Saving, and Similar Words
+N363	Showing, Hiding, Finding, Saving, and Similar Words
+N364	Showing, Hiding, Finding, Saving, and Similar Words
+N365	Showing, Hiding, Finding, Saving, and Similar Words
+N366	Showing, Hiding, Finding, Saving, and Similar Words
+N367	Showing, Hiding, Finding, Saving, and Similar Words
