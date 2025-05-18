@@ -11,7 +11,7 @@ from clustering_utils_0514 import readable_label, make_full_graph
 import streamlit.components.v1 as components
 
 st.set_page_config(layout="wide")
-st.title("🧬 Learner Error → Replacement → Collocation Concept Groups")
+st.title("🔮 WordGenie: Confusable Word Explorer")
 
 # ──────────────────── Data helpers ────────────────────
 @st.cache_data
@@ -23,12 +23,17 @@ def load_json(path: str):
 def load_csv(path: str):
     return pd.read_csv(path)
 
-DATA = load_json("data/merged_output_0515.json")
+DATA = load_json("data/merged_output_20250518_1257.json")
 CSV  = load_csv("data/flat_report_all.csv")
 
-# ───────────────────── Main UI ────────────────────────
-err = st.text_input("Search for an error word:"  ).strip()
+# add a common error list in CSV[err] sorted from most to least common error
+word = st.selectbox("Chose for the word in this dataset", options=CSV["error"].unique().tolist(), index=0)
+# most common error word
+# st.code(f"top ten error words {CSV["error"].value_counts().head(10).to_string()}")
 
+# ───────────────────── Main UI ────────────────────────
+err = st.text_input("Search for word you want to explore:", word, placeholder="enter the word..." ).strip().lower()
+# label="this is for finding the word you can use instead of the worrd that are too general",
 if err:
     # 0. basic validity check
     if err not in DATA or not DATA[err].get("replacements"):
@@ -36,74 +41,86 @@ if err:
         st.stop()
 
     # 1. JSON-level stats
-    total_count = sum(r["count"] for r in DATA[err]["replacements"].values())
-    st.header(f"🔹 Error: '{err}' — corrected {total_count} times")
+    total_count = DATA[err]["total count"]
+    st.header(f"🔹 Word you can use instead of {err} - corrected {total_count} times")
 
     # 2. CSV slice & ordering
-    df = CSV[CSV["錯誤字"] == err].copy()
+    df = CSV[CSV["error"] == err].copy()
     if df.empty:
         st.info("No detailed CSV data available for this word.")
         st.stop()
 
     sort_cols = [
-        "此錯誤總次次數",
-        "此錯誤-正確總錯誤次數",
-        "此錯誤正確累積此搭配詞分類唯一次數",
-        "此錯誤-正確搭配總錯誤次數",
+        "total num of error occur",
+        "num of this error-correction pair occur",
+        "num of this error-correction phrase occur",
+        "unique num of error-correction pairs fall into this collocation category",
+        "total num of error time this error-correction pairs fall into this collocation category",
+        "category of collocation",
+        "collocation",
+        "correction",
+        "error",
     ]
-    df = df.sort_values(sort_cols, ascending=[False]*4)
+    df = df.sort_values(sort_cols, ascending=[False]*len(sort_cols))
 
-    df_with_colloc = df[df["此搭配詞"].notna() & (df["此搭配詞"] != "")]
-    df_no_colloc   = df[df["此搭配詞"].isna()  | (df["此搭配詞"] == "")]
-
+    df_with_colloc = df[df["collocation"].notna() & (df["collocation"] != "")]
+    df_no_colloc   = df[df["collocation"].isna()  | (df["collocation"] == "")]
+    df_with_colloc = df_with_colloc.sort_values(sort_cols, ascending=[False] * len(sort_cols))
+    # st.write(df_with_colloc[sort_cols].head())
     # -----------------------------------------------------------------------
-    # 3. EVERYTHING from here down to the graph lives inside an expander ✔︎
+    # 3. EVERYTHING from here down to the graph lives inside axn expander ✔︎
     # -----------------------------------------------------------------------
     with st.expander("📊 Correction details", expanded=False):
-        # 3-a. detailed replacement-collocation summary
-        st.subheader("1. Error → Replacement → Collocation")
+        lines=[(f"The word {err} - corrected {total_count} times in this database. The → correction with collocations and its concept group are listed below:")]
         summary_data = defaultdict(lambda: {"count": 0, "collocations": {}})
 
-        for rep, grp in df_with_colloc.groupby("正確搭配"):
-            rep_count = grp["此錯誤-正確總錯誤次數"].iloc[0]
+        for rep, grp in df_with_colloc.groupby("correction"):
+            rep_count = grp["num of this error-correction pair occur"].iloc[0]
             summary_data[rep]["count"] = rep_count
-
-            for concept, sg in grp.groupby("此搭配詞分類"):
-                collocs = sg["此搭配詞"].unique().tolist()
-                # keep the largest collocate list we meet for each (rep, concept)
-                if len(collocs) > len(summary_data[rep]["collocations"].get(concept, [])):
-                    summary_data[rep]["collocations"][concept] = collocs
-
-            concept_strings = [
-                f"- **{readable_label(c)}**: {', '.join(v)}"
-                for c, v in summary_data[rep]["collocations"].items()
-            ]
-            st.markdown(f"* → **{rep}** ({rep_count}×)  " + " | ".join(concept_strings))
-
+            for concept, sg in grp.groupby("category of collocation"):
+                # print(concept, sg)
+                collocs = sg["collocation"].unique().tolist()
+                unique_val = sg["unique num of error-correction pairs fall into this collocation category"].iloc[0]
+                summary_data[rep]["collocations"][concept] = {"collocs": collocs, "unique_count": unique_val}
+        sorted_summary = sorted(
+            summary_data.items(),
+            key=lambda item: item[1]["count"],
+            reverse=True
+        )
+        for rep, info in sorted_summary:
+            # print(rep, info)
+            rep_count = info["count"]
+            concept_strings = []
+            for concept, coll_info in sorted(info["collocations"].items(),
+                                               key=lambda x: x[1]["unique_count"],
+                                               reverse=True):
+                # print(concept, coll_info)
+                collocs = coll_info["collocs"]
+                concept_name = readable_label(concept)
+                unique_val = coll_info["unique_count"]
+                if concept_name != "Concept 0":
+                    concept_strings.append(f" {concept_name} ({unique_val}): ({', '.join(collocs)})")
+            lines.append(f" → {rep} ({rep_count})  " + " ||| ".join(concept_strings))
         if not df_no_colloc.empty:
-            st.markdown(
-                "##### Replacements with **no** collocations\n"
-                + ", ".join(sorted(df_no_colloc["正確搭配"].unique()))
+            lines.append(
+                "##### Corrections with **no** collocations\n"
+                + ", ".join(sorted(df_no_colloc["correction"].unique()))
             )
+        st.code("\n".join(lines), language="markdown")
 
-        # 3-b. concept-centric overview
-        st.subheader(f"2. Overall Replacement Groups for '{err}'")
-        for concept, subdf in df_with_colloc.groupby("此搭配詞分類"):
+        st.subheader(f"2. Concept-Based Clusters for '{err}'")
+        for concept, subdf in df_with_colloc.groupby("category of collocation"):
             label = readable_label(concept)
-            repls   = ", ".join(sorted(subdf["正確搭配"].unique()))
-            collocs = ", ".join(sorted(subdf["此搭配詞"].unique()))
-            st.markdown(f"- **{label}**  \n  "
-                        f"Replacements: {repls}  \n  "
-                        f"Collocations: {collocs}")
-
+            repls = ", ".join(sorted(subdf["correction"].unique()))
+            collocs = ", ".join(sorted(subdf["collocation"].unique()))
+            st.markdown(f"- **{label}**  \n  Replacements: {repls}  \n  Collocations: {collocs}")
         # 3-c. optional raw table
         if st.checkbox("Show raw table ↔", value=False, key="show_table"):
-            st.dataframe(df_with_colloc, use_container_width=True)
-
+            st.dataframe(df_with_colloc.reset_index(drop=True), use_container_width=True)
         # 3-d. “top confusable” quick view
         top_reps = (
             df_with_colloc
-            .groupby("正確搭配")["此錯誤-正確總錯誤次數"]
+            .groupby("correction")["num of this error-correction phrase occur"]
             .max()
             .sort_values(ascending=False)
         )
@@ -111,46 +128,51 @@ if err:
             "##### Top confusable replacements\n"
             + ", ".join(top_reps.head(10).index)
         )
-
     # -----------------------------------------------------------------------
     # 4. Build graph-friendly data from `summary_data`
     # -----------------------------------------------------------------------
+    all_categories = list({concept for rep_info in summary_data.values() 
+                               for concept in rep_info["collocations"].keys()})
+    selected_categories = st.multiselect("category you want to show", options=all_categories, default=all_categories[0:5])
+
     graph_data = {
-        err: {
-            "replacements": {},
-            "clusters": {},
-        }
+    err: {
+        "replacements": {},
+        "clusters": {},
+    }
     }
     for rep, info in summary_data.items():
         graph_data[err]["replacements"][rep] = {
             "count": info["count"],
             "collocations": {},
         }
-        for concept, collocs in info["collocations"].items():
-            graph_data[err]["clusters"].setdefault(concept, collocs)
+        for concept, coll_info in info["collocations"].items():
+            # 如果該類別不在使用者選擇的列表中，就跳過，不加入圖形
+            if concept not in selected_categories:
+                continue
+            graph_data[err]["clusters"].setdefault(concept, coll_info["collocs"])
             graph_data[err]["replacements"][rep]["collocations"][concept] = {
-                c: 1 for c in collocs
+                c: 1 for c in coll_info["collocs"]
             }
 
     # 5. Show the PyVis graph (lazy-render on click)
-    if st.button("🗺️ Show interactive graph"):
-        st.info("Building graph – please wait…")
-        net, _ = make_full_graph(graph_data, height="750px", width="100%")
+    # st.info("Building graph – please wait…")
+    net, _ = make_full_graph(graph_data, height="750px", width="100%")
 
-        path = "pyvis_graph.html"
-        net.write_html(path, notebook=False, open_browser=False)
-        with open(path, "r", encoding="utf-8") as fh:
-            components.html(fh.read(), height=750, scrolling=True)
+    path = "pyvis_graph.html"
+    net.write_html(path, notebook=False, open_browser=False)
+    with open(path, "r", encoding="utf-8") as fh:
+        components.html(fh.read(), height=750, scrolling=True)
 
 
-with st.expander("🔍 Browse whole CSV", expanded=True):
+with st.expander("🔍 Browse whole CSV", expanded=False):
     sort_by = st.multiselect(
         "Sort by columns:",
         options=list(CSV.columns),
-        default=["此錯誤-正確總錯誤次數"],
+        default=["total num of error occur"],
         key="csv_sort",
     )
     st.dataframe(
-        CSV.sort_values(sort_by, ascending=False),
+        CSV.sort_values(sort_by, ascending=False).reset_index(drop=True),
         use_container_width=True,
     )
