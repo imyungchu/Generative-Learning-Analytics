@@ -1,8 +1,3 @@
-# learner_app_compact_0515.py
-# ──────────────────────────
-# Streamlit app: compact view – moves verbose text output into an expander
-# Run with:  streamlit run learner_app_compact_0515.py
-
 import streamlit as st
 import pandas as pd
 import json
@@ -24,7 +19,7 @@ def load_csv(path: str):
     return pd.read_csv(path)
 
 DATA = load_json("data/merged_output_20250518_1257.json")
-CSV  = load_csv("data/flat_report_all.csv")
+CSV  = load_csv("data/disambiguated_collocations.csv")
 
 @st.cache_data
 def get_error_options():
@@ -40,12 +35,7 @@ err = selected.split(" (")[0]
 
 num = len(option)
 st.markdown(f"There are {num} number of confusable words in this dataset")
-# most common error word
-# st.code(f"top ten error words {CSV["error"].value_counts().head(10).to_string()}")
 
-# ───────────────────── Main UI ────────────────────────
-# err = st.text_input("Search for word you want to explore:", word, placeholder="enter the word..." ).strip().lower()
-# label="this is for finding the word you can use instead of the worrd that are too general",
 if err:
     # 1. JSON-level stats
     total_count = CSV[CSV["error"] == err]["total num of error occur"].unique()[0]
@@ -88,6 +78,7 @@ def get_summary_data(err, CSV):
     return df_with_colloc, summary_data
     
 df_with_colloc, summary_data = get_summary_data(err, CSV)
+
 if df_with_colloc is None:
     st.info("No detailed CSV data available for this word.")
     st.stop()
@@ -95,7 +86,7 @@ if df_with_colloc is None:
     # -----------------------------------------------------------------------
     # 3. EVERYTHING from here down to the graph lives inside axn expander ✔︎
     # -----------------------------------------------------------------------
-with st.expander("📊 Correction details", expanded=False):
+with st.expander("📊 Correction details", expanded=True):
     lines=[(f"The word {err} - corrected {total_count} times in this database. The → correction with collocations and its concept group are listed below:")]
     summary_data = defaultdict(lambda: {"count": 0, "collocations": {}})
     
@@ -127,9 +118,7 @@ with st.expander("📊 Correction details", expanded=False):
                 concept_strings.append(f" {concept_name} ({unique_val}): ({', '.join(collocs)})")
         lines.append(f" → {rep} ({rep_count})  " + " ||| ".join(concept_strings))
     st.code("\n".join(lines), language="markdown")
-
-    st.subheader(f"2. Concept-Based Clusters for '{err} with replacements and collocations'")
-    # Create a summary list from df_with_colloc
+with st.expander(f"2. Concept-Based Clusters for '{err} with replacements and collocations", expanded=False):
     category_summary = []
     for concept, subdf in df_with_colloc.groupby("category of collocation"):
         # Count the unique corrections in this category
@@ -169,34 +158,67 @@ with st.expander("📊 Correction details", expanded=False):
 # -----------------------------------------------------------------------
 # 4. Build graph-friendly data from `summary_data`
 # -----------------------------------------------------------------------
-all_categories = list({concept for rep_info in summary_data.values() 
-                            for concept in rep_info["collocations"].keys() if concept != "misc-ap-0"})
-selected_categories = st.multiselect("category you want to show", options=all_categories, default=all_categories[0:3])
+all_categories = list({
+    concept
+    for rep_info in summary_data.values()
+    for concept in rep_info["collocations"].keys()
+    if concept != "misc-ap-0"
+})
+selected_categories = st.multiselect(
+    "category you want to show",
+    options=all_categories,
+    default=all_categories[0:3]
+)
 
+# Improved graph data structure
 graph_data = {
-err: {
-    "replacements": {},
-    "clusters": {},
-}
-}
-for rep, info in summary_data.items():
-    graph_data[err]["replacements"][rep] = {
-        "count": info["count"],
+    err: {
+        "replacements": {},
+        "categories": {},
         "collocations": {},
+        "edges": []
     }
+}
+
+for rep, info in summary_data.items():
+    graph_data[err]["replacements"][rep] = {"count": info["count"]}
     for concept, coll_info in info["collocations"].items():
-        # 如果該類別不在使用者選擇的列表中，就跳過，不加入圖形
         if concept not in selected_categories:
             continue
-        graph_data[err]["clusters"].setdefault(concept, coll_info["collocs"])
-        graph_data[err]["replacements"][rep]["collocations"][concept] = {
-            c: 1 for c in coll_info["collocs"]
-        }
+        # Add category node if not exists
+        if concept not in graph_data[err]["categories"]:
+            graph_data[err]["categories"][concept] = {}
+        # Link correction to category
+        graph_data[err]["edges"].append(("rep", rep, "cat", concept))
+        for c in coll_info["collocs"]:
+            # Add collocation node if not exists
+            if c not in graph_data[err]["collocations"]:
+                graph_data[err]["collocations"][c] = {}
+            # Link category to collocation
+            graph_data[err]["edges"].append(("cat", concept, "colloc", c))
 
-# 5. Show the PyVis graph (lazy-render on click)
-# st.info("Building graph – please wait…")
-net, _ = make_full_graph(graph_data, height="750px", width="100%")
+# Now build the graph using PyVis
+import networkx as nx
+from pyvis.network import Network
 
+G = nx.Graph()
+# Add nodes
+for rep in graph_data[err]["replacements"]:
+    G.add_node(f"rep:{rep}", label=rep, color="#812503", shape="box")
+for cat in graph_data[err]["categories"]:
+    G.add_node(f"cat:{cat}", label=cat, color="#1f77b4", shape="ellipse")
+for colloc in graph_data[err]["collocations"]:
+    G.add_node(f"colloc:{colloc}", label=colloc, color="#2ca02c", shape="dot")
+
+# Add edges
+for edge in graph_data[err]["edges"]:
+    if edge[0] == "rep" and edge[2] == "cat":
+        G.add_edge(f"rep:{edge[1]}", f"cat:{edge[3]}", color="#888")
+    elif edge[0] == "cat" and edge[2] == "colloc":
+        G.add_edge(f"cat:{edge[1]}", f"colloc:{edge[3]}", color="#aaa")
+
+net = Network(height="750px", width="100%", bgcolor="#222", font_color="white")
+net.from_nx(G)
 path = "pyvis_graph.html"
 net.write_html(path, notebook=False, open_browser=False)
 with open(path, "r", encoding="utf-8") as fh:

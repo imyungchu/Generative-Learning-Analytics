@@ -221,7 +221,7 @@ def make_full_graph(error_data: Dict[str, Dict], *, height="700px", width="100%"
         # Replacement nodes
         for rep, r_info in info["replacements"].items():
             rep_node = f"{err} → {rep}"
-            G.add_node(rep_node, color="#ffdd00", shape="box",
+            G.add_node(rep_node, color="#812503", shape="box",
                        title=f"{r_info['count']} corrections")
 
         # Collocate nodes
