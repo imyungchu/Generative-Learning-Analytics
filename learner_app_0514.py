@@ -1,12 +1,60 @@
 import streamlit as st
 import pandas as pd
 import json
+import openai
+import os
 from collections import defaultdict
-from clustering_utils_0514 import readable_label, make_full_graph
 import streamlit.components.v1 as components
 
 st.set_page_config(layout="wide")
 st.title("🔮 WordGenie: Confusable Word Explorer")
+# ──────────────────── Secrets & OpenAI setup ────────────────────
+openai.api_key = st.secrets["openai"]["api_key"]  # or your env fallback…
+
+import openai
+
+def generate_micro_lesson(word, context_examples=None, debug=False):
+    # 1. Base instruction
+    intro = (
+        "You are an advanced English instructor. Please do not say somthing like 'If you want, I can also provide exercises or further examples!' because you are a lesson generator, not a chatbot.\n"
+        "You are a small part of the app called WordGenie which target on solving confusable words by clustering collocation to make concept group based on error, correction and collocation."
+        f"Your task is to generate a micro-lesson for learners who struggle with the overly general adjective '{word}' Group the collocaiton and correction by yourself and try to make group as small as possible.\n"
+        f"Generate a structured semantic summary table that which concept(clusters) with which group of adjective replacements for the overly general adjective '{word}',\n"
+    )
+
+    # 2. Optional context block
+    if context_examples:
+        # join with bullets or numbered list for clarity
+        ctx_block = "Here are some learner errors and human corrections with collocation group:\n"
+        ctx_block += "\n".join(f"- {ex}" for ex in context_examples)
+    else:
+        ctx_block = ""
+
+    # 3. Lesson request
+    lesson = (
+        "\n\nThen produce a concise, slide-style micro-lesson:\n"
+        "- A brief generalization of the concept\n"
+        "- 2–3 replacement with collocation illustrating each cluster\n"
+        "- Use headings or table formatting as if for a learner handout\n"
+    )
+
+    # build final prompt
+    prompt = "\n\n".join(part for part in (intro, ctx_block, lesson) if part)
+
+    # debug print
+    if debug:
+        print("===== PROMPT =====")
+        print(prompt)
+        print("==================")
+
+    # call OpenAI
+    resp = openai.ChatCompletion.create(
+        model="gpt-4.1-mini-2025-04-14",
+        messages=[{"role": "user", "content": prompt}],
+        max_tokens=5000,
+        temperature=0,
+    )
+    return resp.choices[0].message.content
 
 # ──────────────────── Data helpers ────────────────────
 @st.cache_data
@@ -86,38 +134,48 @@ if df_with_colloc is None:
     # -----------------------------------------------------------------------
     # 3. EVERYTHING from here down to the graph lives inside axn expander ✔︎
     # -----------------------------------------------------------------------
+
+lines=[(f"The word {err} - corrected {total_count} times in this database. The → correction with collocations and its concept group are listed below:")]
+summary_data = defaultdict(lambda: {"count": 0, "collocations": {}})
+
+for rep, grp in df_with_colloc.groupby("correction"):
+    rep_count = grp["num of this error-correction pair occur"].iloc[0]
+    summary_data[rep]["count"] = rep_count
+    for concept, sg in grp.groupby("category of collocation"):
+        # print(concept, sg)
+        collocs = sg["collocation"].unique().tolist()
+        unique_val = sg["total num of error time this error-correction pairs fall into this collocation category"].iloc[0]
+        summary_data[rep]["collocations"][concept] = {"collocs": collocs, "unique_count": unique_val}
+sorted_summary = sorted(
+    summary_data.items(),
+    key=lambda item: item[1]["count"],
+    reverse=True
+)
+for rep, info in sorted_summary:
+    # print(rep, info)
+    rep_count = info["count"]
+    concept_strings = []
+    for concept, coll_info in sorted(info["collocations"].items(),
+                                        key=lambda x: x[1]["unique_count"],
+                                        reverse=True):
+        # print(concept, coll_info)
+        collocs = coll_info["collocs"]
+        concept_name = CSV[CSV["category of collocation"] == concept]["category of collocation"].unique()[0]
+        unique_val = coll_info["unique_count"]
+        if concept_name != "misc-ap-0":
+            concept_strings.append(f" {concept_name} ({unique_val}): ({', '.join(collocs)})")
+    lines.append(f" → {rep} ({rep_count})  " + " ||| ".join(concept_strings))
+
 with st.expander("📊 Correction details", expanded=True):
-    lines=[(f"The word {err} - corrected {total_count} times in this database. The → correction with collocations and its concept group are listed below:")]
-    summary_data = defaultdict(lambda: {"count": 0, "collocations": {}})
-    
-    for rep, grp in df_with_colloc.groupby("correction"):
-        rep_count = grp["num of this error-correction pair occur"].iloc[0]
-        summary_data[rep]["count"] = rep_count
-        for concept, sg in grp.groupby("category of collocation"):
-            # print(concept, sg)
-            collocs = sg["collocation"].unique().tolist()
-            unique_val = sg["total num of error time this error-correction pairs fall into this collocation category"].iloc[0]
-            summary_data[rep]["collocations"][concept] = {"collocs": collocs, "unique_count": unique_val}
-    sorted_summary = sorted(
-        summary_data.items(),
-        key=lambda item: item[1]["count"],
-        reverse=True
-    )
-    for rep, info in sorted_summary:
-        # print(rep, info)
-        rep_count = info["count"]
-        concept_strings = []
-        for concept, coll_info in sorted(info["collocations"].items(),
-                                            key=lambda x: x[1]["unique_count"],
-                                            reverse=True):
-            # print(concept, coll_info)
-            collocs = coll_info["collocs"]
-            concept_name = CSV[CSV["category of collocation"] == concept]["category of collocation"].unique()[0]
-            unique_val = coll_info["unique_count"]
-            if concept_name != "misc-ap-0":
-                concept_strings.append(f" {concept_name} ({unique_val}): ({', '.join(collocs)})")
-        lines.append(f" → {rep} ({rep_count})  " + " ||| ".join(concept_strings))
     st.code("\n".join(lines), language="markdown")
+
+# ──────────────────── Generate micro-lesson button ────────────────────
+if st.button("Generate Micro-Lesson with OpenAI"):
+    # Pass your lines as the context_examples
+    lesson = generate_micro_lesson(err, context_examples=lines)
+    st.write("#### Micro-Lesson")
+    st.write(lesson)
+
 with st.expander(f"2. Concept-Based Clusters for '{err} with replacements and collocations", expanded=False):
     category_summary = []
     for concept, subdf in df_with_colloc.groupby("category of collocation"):
