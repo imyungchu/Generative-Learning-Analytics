@@ -1,0 +1,47 @@
+error,pos,correction,error phrase,correct phrase,num of this error-correction phrase occur,num of this error-correction pair occur,collocation,category of collocation,total num of error time this error-correction pairs fall into this collocation category,unique num of error-correction pairs fall into this collocation category,total num of error occur,error_collocation,correction_collocation
+big,ADJ,large,big amount,large amount,35,123,amount,"Size, Importance, and Availability",46,3,500,18,889
+big,ADJ,large,big quantity,large quantity,3,123,quantity,"Size, Importance, and Availability",46,3,500,0,348
+big,ADJ,large,big office,large office,29,123,office,Government,29,1,500,12,27
+big,ADJ,large,big number,large number,8,123,number,Mathematics,16,2,500,0,279
+big,ADJ,large,big proportion,large proportion,8,123,proportion,Mathematics,16,2,500,0,88
+big,ADJ,large,big part,large part,9,123,part,Objects Generally,10,2,500,247,874
+big,ADJ,large,big share,large share,1,123,share,Objects Generally,10,2,500,201,444
+big,ADJ,large,big window,large window,4,123,window,Parts of Houses,9,3,500,0,44
+big,ADJ,large,big workroom,large workroom,3,123,workroom,Parts of Houses,9,3,500,0,0
+big,ADJ,large,big scale,large scale,2,123,scale,Parts of Houses,9,3,500,13,127
+big,ADJ,great,big pleasure,great pleasure,6,131,pleasure,Happiness and Sadness,18,9,500,1,63
+big,ADJ,great,big happiness,great happiness,5,131,happiness,Happiness and Sadness,18,9,500,0,5
+big,ADJ,great,big relief,great relief,1,131,relief,Happiness and Sadness,18,9,500,18,36
+big,ADJ,great,big confidence,great confidence,3,131,confidence,"Possibility, Chance, and Necessity",14,8,500,0,72
+big,ADJ,great,big fortune,great fortune,3,131,fortune,"Possibility, Chance, and Necessity",14,8,500,0,16
+big,ADJ,great,big importance,great importance,2,131,importance,"Possibility, Chance, and Necessity",14,8,500,0,124
+big,ADJ,great,big pressure,great pressure,10,131,pressure,Causing,15,4,500,8,78
+big,ADJ,great,big influence,great influence,2,131,influence,Causing,15,4,500,37,118
+big,ADJ,great,big attention,great attention,1,131,attention,Causing,15,4,500,0,63
+big,ADJ,great,big damage,great damage,10,131,damage,"Cutting, Joining, Breaking, and Destroying",10,1,500,15,49
+big,ADJ,great,big fun,great fun,9,131,fun,Entertainment Generally,10,2,500,0,57
+big,ADJ,loud,big sound,loud sound,19,47,sound,"Bodily Conditions Relating to Health, Sickness, and Disability",19,1,500,0,2
+big,ADJ,loud,big voice,loud voice,2,47,voice,Language,2,1,500,32,45
+big,ADJ,loud,big laughter,loud laughter,1,47,laughter,Action of the Face related to Feelings,1,1,500,0,3
+big,ADJ,vast,big park,vast park,6,11,park,Areas Around and Near Houses,6,1,500,0,5
+big,ADJ,vast,big area,vast area,5,11,area,Measurement,5,1,500,42,68
+big,ADJ,vast,big hall,vast hall,2,11,hall,Parts of Houses,2,1,500,0,3
+big,ADJ,vast,big earth,vast earth,1,11,earth,Specific Substance and Materials,1,1,500,0,0
+big,ADJ,massive,big cage,massive cage,3,19,cage,Containers,5,2,500,0,0
+big,ADJ,massive,big plate,massive plate,2,19,plate,Containers,5,2,500,0,2
+big,ADJ,massive,big volcano,massive volcano,3,19,volcano,Geography,4,2,500,0,1
+big,ADJ,massive,big robot,massive robot,1,19,robot,"Equipment, Machines, and Instruments",3,3,500,0,0
+big,ADJ,massive,big machine,massive machine,1,19,machine,"Equipment, Machines, and Instruments",3,3,500,0,5
+big,ADJ,massive,big cake,massive cake,2,19,cake,Food,2,1,500,0,0
+big,ADJ,massive,big task,massive task,1,19,task,"Business, Work, and Employment",1,1,500,0,12
+big,ADJ,major,big hotel,major hotel,3,47,hotel,Travel and Visiting,3,1,500,0,4
+big,ADJ,major,big cinema,major cinema,2,47,cinema,Communication and Information,2,1,500,0,0
+big,ADJ,major,big park,major park,1,47,park,Areas Around and Near Houses,1,1,500,0,1
+big,ADJ,major,big dinner,major dinner,1,47,dinner,Food Generally,1,1,500,0,3
+big,ADJ,major,big difficulty,major difficulty,1,47,difficulty,"General, Usual, Unusual, etc",1,1,500,0,1
+big,ADJ,significant,big opportunity,significant opportunity,3,27,opportunity,"Possibility, Chance, and Necessity",4,2,500,0,34
+big,ADJ,significant,big change,significant change,1,27,change,"Belonging and Owning, Getting and Giving",3,3,500,278,371
+big,ADJ,significant,big contribution,significant contribution,1,27,contribution,"Belonging and Owning, Getting and Giving",3,3,500,34,73
+big,ADJ,significant,big effect,significant effect,1,27,effect,Causing,5,3,500,62,109
+big,ADJ,significant,big benefit,significant benefit,1,27,benefit,Doing Things,1,1,500,0,49
+big,ADJ,significant,big progression,significant progression,1,27,progression,"Moving, Coming, and going",3,3,500,0,0

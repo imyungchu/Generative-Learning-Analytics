@@ -32,10 +32,11 @@ def generate_micro_lesson(word, context_examples=None, debug=False):
 
     # 3. Lesson request
     lesson = (
-        "\n\nThen produce a concise, slide-style micro-lesson:\n"
+        "\n\nThen produce a concise micro-lesson:\n"
         "- A brief generalization of the concept\n"
-        "- 2–3 replacement with collocation illustrating each cluster\n"
-        "- Use headings or table formatting as if for a learner handout\n"
+        "- 3-7 replacement with collocation illustrating each cluster\n"
+        "use '\' instead of <br> for line breaks\n"
+        "- Use table formatting and example sentences as if for a learner handout\n"
     )
 
     # build final prompt
@@ -67,7 +68,28 @@ def load_csv(path: str):
     return pd.read_csv(path)
 
 DATA = load_json("data/merged_output_20250518_1257.json")
-CSV  = load_csv("data/disambiguated_collocations.csv")
+# CSV  = load_csv("data/all_top80pct_replacements_collocations.csv")
+csv_options = {
+    "Top-7/5/3 replacements ": "data/all_top_replacements_collocations.csv",
+    "Top 80 % replacements ": "data/all_top80pctN_replacements_collocations.csv",
+    "All disambiguated data ": "data/disambiguated_collocations.csv",
+    "[extended]Top-7/5/3 replacements ": "data/all_top_replacements_collocations_extended.csv",
+    "[extended]Top 80 % replacements ": "data/all_top80pctN_replacements_collocations_extended.csv",
+    "[extended]All disambiguated data ": "data/disambiguated_collocations_extended.csv"
+}
+csv_choice = st.selectbox(
+    "Choose which filtered dataset to use:",
+    options=list(csv_options.keys()),
+    index=0
+)
+csv_path = csv_options[csv_choice]
+
+@st.cache_data
+def load_csv(path: str):
+    return pd.read_csv(path)
+
+CSV = load_csv(csv_path)
+
 
 @st.cache_data
 def get_error_options():
@@ -182,14 +204,14 @@ with st.expander(f"2. Concept-Based Clusters for '{err} with replacements and co
         # Count the unique corrections in this category
         repls = ", ".join(sorted(subdf["correction"].unique()))
         collocs = ", ".join(sorted(subdf["collocation"].unique()))
-        # merged_phrases = ", ".join([
-        #     f"{subdf['correction'].iloc[i]} {subdf['collocation'].iloc[i]}" 
-        #     for i in range(len(subdf))
-        # ])
         merged_phrases = ", ".join([
-            f"{DATA[err]['replacements'][subdf['correction'].iloc[i]]['collocations'][subdf['collocation'].iloc[i]]['phrase']}"
+            f"{subdf['correction'].iloc[i]} {subdf['collocation'].iloc[i]}" 
             for i in range(len(subdf))
         ])
+        # merged_phrases = ", ".join([
+        #     f"{DATA[err]['replacements'][subdf['correction'].iloc[i]]['collocations'][subdf['collocation'].iloc[i]]['phrase']}"
+        #     for i in range(len(subdf))
+        # ])
         group_corr_count = 0  # initialize counter for this group
         for j in range(len(subdf["collocation"])):
             group_corr_count += subdf["num of this error-correction pair occur"].iloc[j]
@@ -282,6 +304,44 @@ net.write_html(path, notebook=False, open_browser=False)
 with open(path, "r", encoding="utf-8") as fh:
     components.html(fh.read(), height=750, scrolling=True)
 
+
+# ---- Load collocation corpus ----
+# coll_corpus = pd.read_csv("data/mp.lexcoll.csv")
+
+# ---- Build matrix: rows = collocations, cols = replacements ----
+if not df_with_colloc.empty:
+    all_reps = sorted(df_with_colloc["correction"].unique())
+    all_collocs = sorted(df_with_colloc["collocation"].dropna().unique())
+
+        # Build frequency table from corpus
+    table = pd.DataFrame(0, index=all_collocs, columns=all_reps, dtype="Int64")
+    for rep in all_reps:
+        for colloc in all_collocs:
+            match = df_with_colloc[
+                (df_with_colloc["correction"] == rep) & (df_with_colloc["collocation"] == colloc)
+            ]
+            if not match.empty:
+                # You can use any column you want, e.g. "num of this error-correction phrase occur"
+                table.at[colloc, rep] = 1
+            else:
+                table.at[colloc, rep] = pd.NA
+
+    # Optional: Add cluster/group as MultiIndex if you have category info
+    colloc2cat = df_with_colloc.set_index("collocation")["category of collocation"].to_dict()
+    table.index = pd.MultiIndex.from_tuples(
+        [(colloc2cat.get(c, "Other"), c) for c in table.index],
+        names=["Category", "Collocation"]
+    )
+
+    st.markdown(f"### 🔄 Collocation–Replacement Matrix for '{err}'")
+    # Remove empty rows/columns
+    counts_by_col = table.fillna(0).sum(axis=0)
+    counts_by_row = table.fillna(0).sum(axis=1)
+    cols_to_keep = counts_by_col[counts_by_col != 0].index
+    rows_to_keep = counts_by_row[counts_by_row != 0].index
+    table = table.loc[rows_to_keep, cols_to_keep]
+
+    st.dataframe(table, use_container_width=True)
 
 with st.expander("🔍 Browse whole CSV", expanded=False):
     sort_by = st.multiselect(

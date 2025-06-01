@@ -1,0 +1,64 @@
+error,pos,correction,error phrase,correct phrase,num of this error-correction phrase occur,num of this error-correction pair occur,collocation,category of collocation,total num of error time this error-correction pairs fall into this collocation category,unique num of error-correction pairs fall into this collocation category,total num of error occur,error_collocation,correction_collocation
+big,ADJ,large,big workplace,large workplace,9,123,workplace,misc-ap-0,13,4,500,0,0
+big,ADJ,vast,big park,vast park,6,11,park,Areas Around and Near Houses,6,1,500,0,5
+big,ADJ,large,big city,large city,4,123,city,Social Organization in Group and Places,9,4,500,403,621
+big,ADJ,great,big fun,great fun,9,131,fun,Entertainment Generally,10,2,500,0,57
+big,ADJ,great,big success,great success,3,131,success,Doing Things,5,3,500,111,196
+big,ADJ,great,big idea,great idea,1,131,idea,"Thinking, Judging and Remembering-",4,3,500,27,155
+big,ADJ,great,big interest,great interest,1,131,interest,"Relaxation, Excitement, Interest, and Surprise",5,3,500,31,179
+big,ADJ,great,big number,great number,2,131,number,Mathematics,7,3,500,0,331
+big,ADJ,great,big sound,great sound,3,131,sound,"Rightness, Fairness, Purpose, Use, & Strength",8,3,500,0,0
+big,ADJ,great,big stress,great stress,3,131,stress,"Relaxation, Excitement, Interest, and Surprise",5,3,500,0,27
+big,ADJ,great,big degree,great degree,1,131,degree,Mathematics,7,3,500,0,107
+big,ADJ,great,big power,great power,4,131,power,Mathematics,7,3,500,42,149
+big,ADJ,great,big potential,great potential,1,131,potential,Doing Things,5,3,500,0,140
+big,ADJ,large,big amount,large amount,35,123,amount,"Size, Importance, and Availability",46,3,500,18,889
+big,ADJ,great,big popularity,great popularity,3,131,popularity,Linking and Not Linking,4,2,500,0,21
+big,ADJ,large,big workroom,large workroom,3,123,workroom,Parts of Houses,9,3,500,0,0
+big,ADJ,major,big hotel,major hotel,3,47,hotel,Travel and Visiting,3,1,500,0,4
+big,ADJ,loud,big sound,loud sound,19,47,sound,"Bodily Conditions Relating to Health, Sickness, and Disability",19,1,500,0,2
+big,ADJ,loud,big noise,loud noise,22,47,noise,misc-ap-0,22,1,500,0,12
+big,ADJ,great,big difficulty,great difficulty,1,131,difficulty,"General, Usual, Unusual, etc",1,1,500,0,114
+big,ADJ,great,big damage,great damage,10,131,damage,"Cutting, Joining, Breaking, and Destroying",10,1,500,15,49
+big,ADJ,great,big extent,great extent,1,131,extent,"Size, Importance, and Availability",2,2,500,0,103
+big,ADJ,large,big window,large window,4,123,window,Parts of Houses,9,3,500,0,44
+big,ADJ,large,big scale,large scale,2,123,scale,Parts of Houses,9,3,500,13,127
+big,ADJ,heavy,big rain,heavy rain,1,3,rain,Weather and Temperature,2,2,500,0,919
+big,ADJ,large,big share,large share,1,123,share,Objects Generally,10,2,500,201,444
+big,ADJ,large,big island,large island,3,123,island,Geography,4,2,500,0,21
+big,ADJ,large,big cat,large cat,3,123,cat,Animals/ Mammals,4,2,500,0,0
+big,ADJ,large,big part,large part,9,123,part,Objects Generally,10,2,500,247,874
+big,ADJ,large,big proportion,large proportion,8,123,proportion,Mathematics,16,2,500,0,88
+big,ADJ,large,big number,large number,8,123,number,Mathematics,16,2,500,0,279
+big,ADJ,massive,big volcano,massive volcano,3,19,volcano,Geography,4,2,500,0,1
+big,ADJ,massive,big cage,massive cage,3,19,cage,Containers,5,2,500,0,0
+big,ADJ,significant,big opportunity,significant opportunity,3,27,opportunity,"Possibility, Chance, and Necessity",4,2,500,0,34
+big,ADJ,great,big happiness,great happiness,5,131,happiness,Happiness and Sadness,18,9,500,0,5
+big,ADJ,large,big quantity,large quantity,3,123,quantity,"Size, Importance, and Availability",46,3,500,0,348
+big,ADJ,significant,big change,significant change,1,27,change,"Belonging and Owning, Getting and Giving",3,3,500,278,371
+big,ADJ,great,big danger,great danger,2,131,danger,"Possibility, Chance, and Necessity",14,8,500,38,141
+big,ADJ,extensive,big infrastructure,extensive infrastructure,8,7,infrastructure,misc-ap-0,12,3,500,0,2
+big,ADJ,extensive,big datum,extensive datum,3,7,datum,misc-ap-0,12,3,500,0,0
+big,ADJ,significant,big effect,significant effect,1,27,effect,Causing,5,3,500,62,109
+big,ADJ,great,big fortune,great fortune,3,131,fortune,"Possibility, Chance, and Necessity",14,8,500,0,16
+big,ADJ,great,big importance,great importance,2,131,importance,"Possibility, Chance, and Necessity",14,8,500,0,124
+big,ADJ,great,big confidence,great confidence,3,131,confidence,"Possibility, Chance, and Necessity",14,8,500,0,72
+big,ADJ,great,big opportunity,great opportunity,1,131,opportunity,"Possibility, Chance, and Necessity",14,8,500,0,225
+big,ADJ,serious,big trouble,serious trouble,1,2,trouble,"Being, Becoming, and Happening",2,2,500,102,135
+big,ADJ,serious,big accident,serious accident,1,2,accident,"Being, Becoming, and Happening",2,2,500,4,124
+big,ADJ,vast,big area,vast area,5,11,area,Measurement,5,1,500,42,68
+big,ADJ,wide,big variety,wide variety,4,5,variety,"Drama, the Theatre, and Show Business",4,1,500,3,470
+big,ADJ,very,big different,very different,2,2,different,"Resemblance, Difference, and Change",2,1,500,0,552
+big,ADJ,great,big influence,great influence,2,131,influence,Causing,15,4,500,37,118
+big,ADJ,great,big pressure,great pressure,10,131,pressure,Causing,15,4,500,8,78
+big,ADJ,ambitious,big plan,ambitious plan,1,2,plan,"Thinking, Judging and Remembering-",1,1,500,72,162
+big,ADJ,large,big office,large office,29,123,office,Government,29,1,500,12,27
+big,ADJ,great,big effort,great effort,1,131,effort,Industry and Work,1,1,500,31,125
+big,ADJ,major,big hospital,major hospital,11,47,hospital,misc-ap-0,14,4,500,0,30
+big,ADJ,so,big different,so different,1,1,different,"Resemblance, Difference, and Change",1,1,500,0,118
+big,ADJ,great,big pleasure,great pleasure,6,131,pleasure,Happiness and Sadness,18,9,500,1,63
+big,ADJ,full,big amount,full amount,1,1,amount,"Size, Importance, and Availability",1,1,500,18,142
+big,ADJ,large,big cake,large cake,4,123,cake,Food,8,4,500,0,6
+big,ADJ,bright,big light,bright light,3,2,light,"The Skin, the Complexion, and the Hair",3,1,500,6,145
+big,ADJ,broad,big range,broad range,1,4,range,"Belonging and Owning, Getting and Giving",1,1,500,0,458
+big,ADJ,main,big reason,main reason,1,1,reason,"Thinking, Judging and Remembering-",1,1,500,164,520
